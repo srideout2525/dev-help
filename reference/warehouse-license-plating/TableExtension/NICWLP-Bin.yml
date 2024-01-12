@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Bin"'
+alId: ID 23093634
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Warehouse.Structure.Bin
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"NICWLP Ignore Strict Pkg Pstng"'
+  uid: F:TableExtension::NICWLP_Bin.NICWLP_Ignore_Strict_Pkg_Pstng
+commentId: O:TableExtension::NICWLP Bin
+name: '"NICWLP Bin"'
+uid: O:TableExtension::NICWLP_Bin

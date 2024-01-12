@@ -1,0 +1,47 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Package Details Factbox"'
+alId: ID 23093640
+baseKind: Page
+kind: Page
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::NICWLP_Package_Contents_Buffer
+  name: '"NICWLP Package Contents Buffer"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#Warehouse'
+  promoted: false
+- name: Caption
+  value: Package Details
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "23093634"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::NICWLP_Package_Contents_Buffer
+    name: '"NICWLP Package Contents Buffer"'
+    isExternal: false
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure SetPageContent(var PackageNoInfo: Record "Package No. Information")'
+    parameters:
+    - id: PackageNoInfo
+      parameterType:
+        name: Record "Package No. Information"
+        isExternal: true
+  name: SetPageContent
+  uid: M:Page::NICWLP_Package_Details_Factbox.SetPageContent(Package_No#_Information@)
+commentId: O:Page::NICWLP Package Details Factbox
+name: '"NICWLP Package Details Factbox"'
+uid: O:Page::NICWLP_Package_Details_Factbox

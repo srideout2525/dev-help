@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Inventory Setup"'
+alId: ID 23093637
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Inventory.Setup."Inventory Setup"
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::NICWLP Inventory Setup
+name: '"NICWLP Inventory Setup"'
+uid: O:PageExtension::NICWLP_Inventory_Setup

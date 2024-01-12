@@ -1,0 +1,11 @@
+﻿### YamlMime:BusinessCentralObsoletionList
+tag: "22.2"
+groups:
+- groupName: "22.2"
+  symbols:
+  - kind: Table
+    internalReference: O:Table::NICBOM_RESTStripeConfig
+    name: Table 23094286 "NICBOM RESTStripeConfig"
+    reason: Replaced by AppSource pricing
+  uid: N:Module::Backorder_Management_obsolete_by_22.2#22.2
+uid: N:Module::Backorder_Management_obsolete_by_22.2

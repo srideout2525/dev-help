@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Guided Exp Manual Setup"'
+alId: ID 23093667
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Permissions
+  value: tabledata "Inventory Setup" = r
+  promoted: false
+commentId: O:Codeunit::NICWLP Guided Exp Manual Setup
+name: '"NICWLP Guided Exp Manual Setup"'
+uid: O:Codeunit::NICWLP_Guided_Exp_Manual_Setup

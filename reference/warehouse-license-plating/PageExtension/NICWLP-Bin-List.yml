@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Bin List"'
+alId: ID 23093639
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Warehouse.Structure."Bin List"
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::NICWLP Bin List
+name: '"NICWLP Bin List"'
+uid: O:PageExtension::NICWLP_Bin_List

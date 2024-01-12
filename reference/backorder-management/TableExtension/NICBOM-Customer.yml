@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM Customer"'
+alId: ID 23094292
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Sales.Customer.Customer
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"NICBOM UnderShptCode"'
+  uid: F:TableExtension::NICBOM_Customer.NICBOM_UnderShptCode[20]
+commentId: O:TableExtension::NICBOM Customer
+name: '"NICBOM Customer"'
+uid: O:TableExtension::NICBOM_Customer

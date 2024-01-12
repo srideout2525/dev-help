@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM PurchRcptLine"'
+alId: ID 23094290
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Purchases.History."Purch. Rcpt. Line"
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"NICBOM UnderRcptQuantity"'
+  uid: F:TableExtension::NICBOM_PurchRcptLine.NICBOM_UnderRcptQuantity
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"NICBOM UnderRcptCode"'
+  uid: F:TableExtension::NICBOM_PurchRcptLine.NICBOM_UnderRcptCode[20]
+commentId: O:TableExtension::NICBOM PurchRcptLine
+name: '"NICBOM PurchRcptLine"'
+uid: O:TableExtension::NICBOM_PurchRcptLine

@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Lot No. Info List"'
+alId: ID 23093644
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Inventory.Tracking."Lot No. Information List"
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::NICWLP Lot No# Info List
+name: '"NICWLP Lot No. Info List"'
+uid: O:PageExtension::NICWLP_Lot_No#_Info_List

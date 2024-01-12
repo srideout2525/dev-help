@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM Vendor"'
+alId: ID 23094288
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Purchases.Vendor.Vendor
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"NICBOM UnderRcptCode"'
+  uid: F:TableExtension::NICBOM_Vendor.NICBOM_UnderRcptCode[20]
+commentId: O:TableExtension::NICBOM Vendor
+name: '"NICBOM Vendor"'
+uid: O:TableExtension::NICBOM_Vendor

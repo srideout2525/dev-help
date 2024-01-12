@@ -1,0 +1,48 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Check Pack WH Entry"'
+alId: ID 23093634
+baseKind: Query
+kind: Query
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Check Package Warehouse Entry
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+queryColumns:
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[10]
+    isExternal: true
+  name: LocationCode
+  uid: C:Query::NICWLP_Check_Pack_WH_Entry.WarehouseEntry.LocationCode
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: BinCode
+  uid: C:Query::NICWLP_Check_Pack_WH_Entry.WarehouseEntry.BinCode
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[50]
+    isExternal: true
+  name: PackageNo
+  uid: C:Query::NICWLP_Check_Pack_WH_Entry.WarehouseEntry.PackageNo
+- dataItem: WarehouseEntry
+  columnType:
+    name: Decimal
+    isExternal: true
+  name: Quantity
+  uid: C:Query::NICWLP_Check_Pack_WH_Entry.WarehouseEntry.Quantity
+commentId: O:Query::NICWLP Check Pack WH Entry
+name: '"NICWLP Check Pack WH Entry"'
+uid: O:Query::NICWLP_Check_Pack_WH_Entry

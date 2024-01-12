@@ -1,0 +1,96 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Build LocBinMan WE"'
+alId: ID 23093638
+baseKind: Query
+kind: Query
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Build Loc Bin Man Warehouse Entry
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+queryColumns:
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[50]
+    isExternal: true
+  name: PackageNo
+  uid: C:Query::NICWLP_Build_LocBinMan_WE.Location.WarehouseEntry.PackageNo
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[10]
+    isExternal: true
+  name: LocationCode
+  uid: C:Query::NICWLP_Build_LocBinMan_WE.Location.WarehouseEntry.LocationCode
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[10]
+    isExternal: true
+  name: ZoneCode
+  uid: C:Query::NICWLP_Build_LocBinMan_WE.Location.WarehouseEntry.ZoneCode
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: BinCode
+  uid: C:Query::NICWLP_Build_LocBinMan_WE.Location.WarehouseEntry.BinCode
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: ItemNo
+  uid: C:Query::NICWLP_Build_LocBinMan_WE.Location.WarehouseEntry.ItemNo
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[10]
+    isExternal: true
+  name: VariantCode
+  uid: C:Query::NICWLP_Build_LocBinMan_WE.Location.WarehouseEntry.VariantCode
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[50]
+    isExternal: true
+  name: LotNo
+  uid: C:Query::NICWLP_Build_LocBinMan_WE.Location.WarehouseEntry.LotNo
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[50]
+    isExternal: true
+  name: SerialNo
+  uid: C:Query::NICWLP_Build_LocBinMan_WE.Location.WarehouseEntry.SerialNo
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[10]
+    isExternal: true
+  name: UnitofMeasureCode
+  uid: C:Query::NICWLP_Build_LocBinMan_WE.Location.WarehouseEntry.UnitofMeasureCode
+- dataItem: WarehouseEntry
+  columnType:
+    name: Decimal
+    isExternal: true
+  name: Quantity
+  uid: C:Query::NICWLP_Build_LocBinMan_WE.Location.WarehouseEntry.Quantity
+- dataItem: WarehouseEntry
+  columnType:
+    name: Decimal
+    isExternal: true
+  name: QtyperUnitofMeasure
+  uid: C:Query::NICWLP_Build_LocBinMan_WE.Location.WarehouseEntry.QtyperUnitofMeasure
+- dataItem: WarehouseEntry
+  columnType:
+    name: Date
+    isExternal: true
+  name: ExpirationDate
+  uid: C:Query::NICWLP_Build_LocBinMan_WE.Location.WarehouseEntry.ExpirationDate
+commentId: O:Query::NICWLP Build LocBinMan WE
+name: '"NICWLP Build LocBinMan WE"'
+uid: O:Query::NICWLP_Build_LocBinMan_WE

@@ -1,0 +1,30 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Build Item Not Tracked"'
+alId: ID 23093641
+baseKind: Query
+kind: Query
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Build Item Not Item Tracked
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+queryColumns:
+- dataItem: Item
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: "No"
+  uid: C:Query::NICWLP_Build_Item_Not_Tracked.Item.No
+commentId: O:Query::NICWLP Build Item Not Tracked
+name: '"NICWLP Build Item Not Tracked"'
+uid: O:Query::NICWLP_Build_Item_Not_Tracked

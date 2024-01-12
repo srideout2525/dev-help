@@ -1,0 +1,78 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM UnderShptCode"'
+alId: ID 23094288
+baseKind: Table
+kind: Table
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Under-Shipment Code
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: LookupPageId
+  value: NICBOM UnderShptCodes
+  promoted: false
+  xrefType:
+    internalReference: O:Page::NICBOM_UnderShptCodes
+    name: '"NICBOM UnderShptCodes"'
+    isExternal: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  name: Code
+  uid: F:Table::NICBOM_UnderShptCode.Code[20]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: Description
+  uid: F:Table::NICBOM_UnderShptCode.Description[100]
+- type:
+    name: Boolean
+    isExternal: true
+  name: Default
+  uid: F:Table::NICBOM_UnderShptCode.Default
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Tolerance Pct."'
+  uid: F:Table::NICBOM_UnderShptCode.Tolerance_Pct#
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::NICBOM_UnderShptCode.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::NICBOM_UnderShptCode.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::NICBOM_UnderShptCode.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::NICBOM_UnderShptCode.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::NICBOM_UnderShptCode.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::NICBOM_UnderShptCode.SystemRowVersion
+commentId: O:Table::NICBOM UnderShptCode
+name: '"NICBOM UnderShptCode"'
+uid: O:Table::NICBOM_UnderShptCode

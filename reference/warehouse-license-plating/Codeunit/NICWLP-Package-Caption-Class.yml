@@ -1,0 +1,35 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Package Caption Class"'
+alId: ID 23093636
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: SingleInstance
+  value: "True"
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure OnItemTrackingCaptionClassTranslate(CaptionExpr: Text, var IsResolved: Boolean, var ResolvedExpr: Text)'
+    parameters:
+    - id: CaptionExpr
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: IsResolved
+      parameterType:
+        name: Boolean
+        isExternal: true
+    - id: ResolvedExpr
+      parameterType:
+        name: Text
+        isExternal: true
+  name: OnItemTrackingCaptionClassTranslate
+  uid: M:Codeunit::NICWLP_Package_Caption_Class.OnItemTrackingCaptionClassTranslate(Text,Boolean@,Text@)
+commentId: O:Codeunit::NICWLP Package Caption Class
+name: '"NICWLP Package Caption Class"'
+uid: O:Codeunit::NICWLP_Package_Caption_Class

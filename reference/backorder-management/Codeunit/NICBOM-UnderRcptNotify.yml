@@ -1,0 +1,36 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM UnderRcptNotify"'
+alId: ID 23094302
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Permissions
+  value: tabledata "Purchase Header" = r
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure RecallUnderReceiptNotification(PurchaseHeaderRecordId: RecordId)'
+    parameters:
+    - id: PurchaseHeaderRecordId
+      parameterType:
+        name: RecordId
+        isExternal: true
+  name: RecallUnderReceiptNotification
+  uid: M:Codeunit::NICBOM_UnderRcptNotify.RecallUnderReceiptNotification(RecordId)
+- syntax:
+    content: 'procedure ShowUnderReceiptNotificationFromLine(DocumentNo: Code[20])'
+    parameters:
+    - id: DocumentNo
+      parameterType:
+        name: Code[20]
+        isExternal: true
+  name: ShowUnderReceiptNotificationFromLine
+  uid: M:Codeunit::NICBOM_UnderRcptNotify.ShowUnderReceiptNotificationFromLine(Code[20])
+commentId: O:Codeunit::NICBOM UnderRcptNotify
+name: '"NICBOM UnderRcptNotify"'
+uid: O:Codeunit::NICBOM_UnderRcptNotify

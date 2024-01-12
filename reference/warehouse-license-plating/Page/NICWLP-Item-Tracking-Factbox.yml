@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Item Tracking Factbox"'
+alId: ID 23093635
+baseKind: Page
+kind: Page
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: Microsoft.Inventory.Item.Item
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Item Tracking
+  promoted: false
+- name: PageType
+  value: CardPart
+  promoted: true
+- name: SourceTable
+  value: "27"
+  promoted: true
+  xrefType:
+    name: Microsoft.Inventory.Item.Item
+    isExternal: true
+methods:
+- syntax:
+    content: procedure SetItemTrackingFactbox()
+  name: SetItemTrackingFactbox
+  uid: M:Page::NICWLP_Item_Tracking_Factbox.SetItemTrackingFactbox
+commentId: O:Page::NICWLP Item Tracking Factbox
+name: '"NICWLP Item Tracking Factbox"'
+uid: O:Page::NICWLP_Item_Tracking_Factbox

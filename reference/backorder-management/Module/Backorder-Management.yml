@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: Backorder Management by NIC Systems Inc. (99.0.0.0)
+baseKind: Module
+kind: Module
+objectProperties:
+- name: Version
+  value: 99.0.0.0
+  promoted: false
+- name: Publisher
+  value: NIC Systems Inc.
+  promoted: false
+- name: Brief
+  value: Provides you with a suite of capabilities to help your organization handle under-receipts and short-shipments.
+  promoted: false
+summary: Provides you with a suite of capabilities to help your organization handle under-receipts and short-shipments.
+name: Backorder Management
+uid: N:Module::Backorder_Management

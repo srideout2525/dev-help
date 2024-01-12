@@ -1,0 +1,151 @@
+﻿items:
+- name: Overview
+  uid: N:Module::Warehouse_License_Plating
+- name: Reference
+  items:
+  - name: Tables
+    items:
+    - name: NICWLP Item Package Ctnt Code
+      uid: O:Table::NICWLP_Item_Package_Ctnt_Code
+    - name: NICWLP Package Content Code
+      uid: O:Table::NICWLP_Package_Content_Code
+    - name: NICWLP Package Content Comb
+      uid: O:Table::NICWLP_Package_Content_Comb
+    - name: NICWLP Package Contents Buffer
+      uid: O:Table::NICWLP_Package_Contents_Buffer
+    - name: NICWLP RESTStripeConfig
+      uid: O:Table::NICWLP_RESTStripeConfig
+  - name: Codeunits
+    items:
+    - name: NICWLP Assign Package and Lot
+      uid: O:Codeunit::NICWLP_Assign_Package_and_Lot
+    - name: NICWLP Barcode Management
+      uid: O:Codeunit::NICWLP_Barcode_Management
+    - name: NICWLP Check Package
+      uid: O:Codeunit::NICWLP_Check_Package
+    - name: NICWLP Check Package Content
+      uid: O:Codeunit::NICWLP_Check_Package_Content
+    - name: NICWLP Check Package Impl.
+      uid: O:Codeunit::NICWLP_Check_Package_Impl#
+    - name: NICWLP Get Package Content
+      uid: O:Codeunit::NICWLP_Get_Package_Content
+    - name: NICWLP Guided Exp Manual Setup
+      uid: O:Codeunit::NICWLP_Guided_Exp_Manual_Setup
+    - name: NICWLP Install
+      uid: O:Codeunit::NICWLP_Install
+    - name: NICWLP Package Caption Class
+      uid: O:Codeunit::NICWLP_Package_Caption_Class
+    - name: NICWLP Print Package Label
+      uid: O:Codeunit::NICWLP_Print_Package_Label
+    - name: NICWLP Setup Wizard Handler
+      uid: O:Codeunit::NICWLP_Setup_Wizard_Handler
+    - name: NICWLP Single Instance Subs
+      uid: O:Codeunit::NICWLP_Single_Instance_Subs
+  - name: Pages
+    items:
+    - name: NICWLP Bin Factbox
+      uid: O:Page::NICWLP_Bin_Factbox
+    - name: NICWLP Item Package Ctnt Code
+      uid: O:Page::NICWLP_Item_Package_Ctnt_Code
+    - name: NICWLP Item Tracking Factbox
+      uid: O:Page::NICWLP_Item_Tracking_Factbox
+    - name: NICWLP Package Content Codes
+      uid: O:Page::NICWLP_Package_Content_Codes
+    - name: NICWLP Package Content Comb
+      uid: O:Page::NICWLP_Package_Content_Comb
+    - name: NICWLP Package Contents
+      uid: O:Page::NICWLP_Package_Contents
+    - name: NICWLP Package Details Factbox
+      uid: O:Page::NICWLP_Package_Details_Factbox
+    - name: NICWLP PackageCtntCombMatrix
+      uid: O:Page::NICWLP_PackageCtntCombMatrix
+    - name: NICWLP WLP Setup Wizard
+      uid: O:Page::NICWLP_WLP_Setup_Wizard
+  - name: Reports
+    items:
+    - name: NICWLP Package Label
+      uid: O:Report::NICWLP_Package_Label
+  - name: Queries
+    items:
+    - name: NICWLP Build Item Not PWT
+      uid: O:Query::NICWLP_Build_Item_Not_PWT
+    - name: NICWLP Build Item Not Tracked
+      uid: O:Query::NICWLP_Build_Item_Not_Tracked
+    - name: NICWLP Build Item PWT
+      uid: O:Query::NICWLP_Build_Item_PWT
+    - name: NICWLP Build Loc Blank ILE
+      uid: O:Query::NICWLP_Build_Loc_Blank_ILE
+    - name: NICWLP Build Loc NotBinMan ILE
+      uid: O:Query::NICWLP_Build_Loc_NotBinMan_ILE
+    - name: NICWLP Build LocBinMan ILE
+      uid: O:Query::NICWLP_Build_LocBinMan_ILE
+    - name: NICWLP Build LocBinMan WE
+      uid: O:Query::NICWLP_Build_LocBinMan_WE
+    - name: NICWLP Check Pack WH Entry
+      uid: O:Query::NICWLP_Check_Pack_WH_Entry
+    - name: NICWLP Check PackageCtntCd ILE
+      uid: O:Query::NICWLP_Check_PackageCtntCd_ILE
+    - name: NICWLP Check PackageCtntCd WHE
+      uid: O:Query::NICWLP_Check_PackageCtntCd_WHE
+    - name: NICWLP CheckPackItemLedgEntry
+      uid: O:Query::NICWLP_CheckPackItemLedgEntry
+    - name: NICWLP Item Ledger Entry
+      uid: O:Query::NICWLP_Item_Ledger_Entry
+    - name: NICWLP Packages
+      uid: O:Query::NICWLP_Packages
+    - name: NICWLP Warehouse Entry
+      uid: O:Query::NICWLP_Warehouse_Entry
+    - name: NICWLP Whse Entry Bin Detail
+      uid: O:Query::NICWLP_Whse_Entry_Bin_Detail
+  - name: PageExtensions
+    items:
+    - name: NICWLP Bin List
+      uid: O:PageExtension::NICWLP_Bin_List
+    - name: NICWLP Bins
+      uid: O:PageExtension::NICWLP_Bins
+    - name: NICWLP Inventory Setup
+      uid: O:PageExtension::NICWLP_Inventory_Setup
+    - name: NICWLP Item Card
+      uid: O:PageExtension::NICWLP_Item_Card
+    - name: NICWLP Item List
+      uid: O:PageExtension::NICWLP_Item_List
+    - name: NICWLP Item Tracking Lines
+      uid: O:PageExtension::NICWLP_Item_Tracking_Lines
+    - name: NICWLP Item Variant Card
+      uid: O:PageExtension::NICWLP_Item_Variant_Card
+    - name: NICWLP Item Variants
+      uid: O:PageExtension::NICWLP_Item_Variants
+    - name: NICWLP Lot No. Info List
+      uid: O:PageExtension::NICWLP_Lot_No#_Info_List
+    - name: NICWLP Package No. Info List
+      uid: O:PageExtension::NICWLP_Package_No#_Info_List
+    - name: NICWLP Zone List
+      uid: O:PageExtension::NICWLP_Zone_List
+  - name: TableExtensions
+    items:
+    - name: NICWLP Bin
+      uid: O:TableExtension::NICWLP_Bin
+    - name: NICWLP Inventory Setup
+      uid: O:TableExtension::NICWLP_Inventory_Setup
+    - name: NICWLP Tracking Specification
+      uid: O:TableExtension::NICWLP_Tracking_Specification
+  - name: Enums
+    items:
+    - name: NICWLP Package Combinations
+      uid: O:Enum::NICWLP_Package_Combinations
+  - name: PermissionSets
+    items:
+    - name: NICWLP Objects
+      uid: O:PermissionSet::NICWLP_Objects
+    - name: NICWLP WhLicensePlatingObjects
+      uid: O:PermissionSet::NICWLP_WhLicensePlatingObjects
+    - name: NICWLP WhLicPlatEdit
+      uid: O:PermissionSet::NICWLP_WhLicPlatEdit
+    - name: NICWLP WhLicPlatRead
+      uid: O:PermissionSet::NICWLP_WhLicPlatRead
+- name: Obsoleted
+  items:
+  - name: "22.2"
+    uid: N:Module::Warehouse_License_Plating_obsolete_by_22.2
+  - name: "23.0"
+    uid: N:Module::Warehouse_License_Plating_obsolete_by_23.0

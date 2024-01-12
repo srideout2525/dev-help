@@ -1,0 +1,1146 @@
+{
+  "homepages": [],
+  "source_base_path": "c:/_aldoc/_mypath",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Codeunit/NICBOM-Single-Inst-Sub-(Purch).yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Codeunit/NICBOM-Single-Inst-Sub-(Purch).html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Codeunit/NICBOM-Single-Inst-Sub-(Sales).yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Codeunit/NICBOM-Single-Inst-Sub-(Sales).html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Codeunit/NICBOM-UnderRcptMgt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Codeunit/NICBOM-UnderRcptMgt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Codeunit/NICBOM-UnderRcptNotify.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Codeunit/NICBOM-UnderRcptNotify.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Codeunit/NICBOM-UnderShptMgt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Codeunit/NICBOM-UnderShptMgt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Codeunit/NICBOM-UnderShptNotify.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Codeunit/NICBOM-UnderShptNotify.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Enum/NICBOM-Qty.-To-Handle-Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Enum/NICBOM-Qty.-To-Handle-Option.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Module/Backorder-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Module/Backorder-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/backorder-management/Obsoletion/obsolete_by_22.2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Obsoletion/obsolete_by_22.2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/backorder-management/Obsoletion/obsolete_by_23.0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Obsoletion/obsolete_by_23.0.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Page/NICBOM-CustItemUnderShptCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Page/NICBOM-CustItemUnderShptCodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Page/NICBOM-ItemCustUnderShptCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Page/NICBOM-ItemCustUnderShptCodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Page/NICBOM-ItemVendUnderRcptCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Page/NICBOM-ItemVendUnderRcptCodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Page/NICBOM-UnderRcptCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Page/NICBOM-UnderRcptCodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Page/NICBOM-UnderShptCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Page/NICBOM-UnderShptCodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Page/NICBOM-VendItemUnderRcptCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Page/NICBOM-VendItemUnderRcptCodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PageExtension/NICBOM-ItemCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PageExtension/NICBOM-ItemCard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PageExtension/NICBOM-ItemList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PageExtension/NICBOM-ItemList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PageExtension/NICBOM-VendorCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PageExtension/NICBOM-VendorCard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PageExtension/NICBOM-VendorList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PageExtension/NICBOM-VendorList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PageExtension/NICBOM-Warehouse-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PageExtension/NICBOM-Warehouse-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PageExtension/NICBOMCustomerCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PageExtension/NICBOMCustomerCard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PageExtension/NICBOMCustomerList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PageExtension/NICBOMCustomerList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PageExtension/NICBOMPurchaseOrderSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PageExtension/NICBOMPurchaseOrderSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PageExtension/NICBOMSalesOrderSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PageExtension/NICBOMSalesOrderSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PageExtension/NICBOMWhseReceiptSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PageExtension/NICBOMWhseReceiptSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PageExtension/NICBOMWhseShipmentSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PageExtension/NICBOMWhseShipmentSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PermissionSet/NICBOM-BackorderEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PermissionSet/NICBOM-BackorderEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PermissionSet/NICBOM-BackorderObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PermissionSet/NICBOM-BackorderObjects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PermissionSet/NICBOM-BackorderRead.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PermissionSet/NICBOM-BackorderRead.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/PermissionSet/NICBOM-Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/PermissionSet/NICBOM-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Report/NICBOM-DeleteObsoleteWhsePicks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Report/NICBOM-DeleteObsoleteWhsePicks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Table/NICBOM-ItemCustUnderShptCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Table/NICBOM-ItemCustUnderShptCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Table/NICBOM-ItemVendorUnderRcptCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Table/NICBOM-ItemVendorUnderRcptCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Table/NICBOM-RESTStripeConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Table/NICBOM-RESTStripeConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Table/NICBOM-UnderRcptCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Table/NICBOM-UnderRcptCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Table/NICBOM-UnderShptCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Table/NICBOM-UnderShptCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/TableExtension/NICBOM-Customer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/TableExtension/NICBOM-Customer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/TableExtension/NICBOM-Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/TableExtension/NICBOM-Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/TableExtension/NICBOM-PurchRcptLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/TableExtension/NICBOM-PurchRcptLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/TableExtension/NICBOM-Purchase-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/TableExtension/NICBOM-Purchase-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/TableExtension/NICBOM-Sales-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/TableExtension/NICBOM-Sales-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/TableExtension/NICBOM-SalesShipmentLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/TableExtension/NICBOM-SalesShipmentLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/TableExtension/NICBOM-Vendor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/TableExtension/NICBOM-Vendor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/TableExtension/NICBOM-Warehouse-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/TableExtension/NICBOM-Warehouse-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/TableExtension/NICBOM-WarehouseReceiptLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/TableExtension/NICBOM-WarehouseReceiptLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/TableExtension/NICBOM-WarehouseShipmentLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/TableExtension/NICBOM-WarehouseShipmentLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Assign-Package-and-Lot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Assign-Package-and-Lot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Barcode-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Barcode-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Check-Package-Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Check-Package-Content.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Check-Package-Impl..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Check-Package-Impl..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Check-Package.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Check-Package.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Get-Package-Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Get-Package-Content.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Guided-Exp-Manual-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Guided-Exp-Manual-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Install.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Package-Caption-Class.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Package-Caption-Class.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Print-Package-Label.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Print-Package-Label.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Setup-Wizard-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Setup-Wizard-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Single-Instance-Subs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Single-Instance-Subs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Enum/NICWLP-Package-Combinations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Enum/NICWLP-Package-Combinations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Module/Warehouse-License-Plating.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Module/Warehouse-License-Plating.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/warehouse-license-plating/Obsoletion/obsolete_by_22.2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Obsoletion/obsolete_by_22.2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/warehouse-license-plating/Obsoletion/obsolete_by_23.0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Obsoletion/obsolete_by_23.0.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Page/NICWLP-Bin-Factbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Page/NICWLP-Bin-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Page/NICWLP-Item-Package-Ctnt-Code.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Page/NICWLP-Item-Package-Ctnt-Code.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Page/NICWLP-Item-Tracking-Factbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Page/NICWLP-Item-Tracking-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Page/NICWLP-Package-Content-Codes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Page/NICWLP-Package-Content-Codes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Page/NICWLP-Package-Content-Comb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Page/NICWLP-Package-Content-Comb.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Page/NICWLP-Package-Contents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Page/NICWLP-Package-Contents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Page/NICWLP-Package-Details-Factbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Page/NICWLP-Package-Details-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Page/NICWLP-PackageCtntCombMatrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Page/NICWLP-PackageCtntCombMatrix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Page/NICWLP-WLP-Setup-Wizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Page/NICWLP-WLP-Setup-Wizard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Bin-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Bin-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Bins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Bins.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Inventory-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Inventory-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Item-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Item-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Item-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Item-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Item-Tracking-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Item-Tracking-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Item-Variant-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Item-Variant-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Item-Variants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Item-Variants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Lot-No.-Info-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Lot-No.-Info-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Package-No.-Info-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Package-No.-Info-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Zone-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Zone-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PermissionSet/NICWLP-Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PermissionSet/NICWLP-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PermissionSet/NICWLP-WhLicPlatEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PermissionSet/NICWLP-WhLicPlatEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PermissionSet/NICWLP-WhLicPlatRead.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PermissionSet/NICWLP-WhLicPlatRead.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/PermissionSet/NICWLP-WhLicensePlatingObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/PermissionSet/NICWLP-WhLicensePlatingObjects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-Build-Item-Not-PWT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-Build-Item-Not-PWT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-Build-Item-Not-Tracked.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-Build-Item-Not-Tracked.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-Build-Item-PWT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-Build-Item-PWT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-Build-Loc-Blank-ILE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-Build-Loc-Blank-ILE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-Build-Loc-NotBinMan-ILE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-Build-Loc-NotBinMan-ILE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-Build-LocBinMan-ILE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-Build-LocBinMan-ILE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-Build-LocBinMan-WE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-Build-LocBinMan-WE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-Check-Pack-WH-Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-Check-Pack-WH-Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-Check-PackageCtntCd-ILE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-Check-PackageCtntCd-ILE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-Check-PackageCtntCd-WHE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-Check-PackageCtntCd-WHE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-CheckPackItemLedgEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-CheckPackItemLedgEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-Item-Ledger-Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-Item-Ledger-Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-Packages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-Packages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-Warehouse-Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-Warehouse-Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Query/NICWLP-Whse-Entry-Bin-Detail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Query/NICWLP-Whse-Entry-Bin-Detail.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Report/NICWLP-Package-Label.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Report/NICWLP-Package-Label.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Table/NICWLP-Item-Package-Ctnt-Code.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Table/NICWLP-Item-Package-Ctnt-Code.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Table/NICWLP-Package-Content-Code.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Table/NICWLP-Package-Content-Code.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Table/NICWLP-Package-Content-Comb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Table/NICWLP-Package-Content-Comb.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Table/NICWLP-Package-Contents-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Table/NICWLP-Package-Contents-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Table/NICWLP-RESTStripeConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Table/NICWLP-RESTStripeConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/TableExtension/NICWLP-Bin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/TableExtension/NICWLP-Bin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/TableExtension/NICWLP-Inventory-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/TableExtension/NICWLP-Inventory-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/TableExtension/NICWLP-Tracking-Specification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/TableExtension/NICWLP-Tracking-Specification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

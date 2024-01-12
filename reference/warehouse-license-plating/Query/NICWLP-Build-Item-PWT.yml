@@ -1,0 +1,30 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Build Item PWT"'
+alId: ID 23093643
+baseKind: Query
+kind: Query
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Build Item Package Warehouse Tracking
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+queryColumns:
+- dataItem: Item
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: "No"
+  uid: C:Query::NICWLP_Build_Item_PWT.ItemTrackingCode.Item.No
+commentId: O:Query::NICWLP Build Item PWT
+name: '"NICWLP Build Item PWT"'
+uid: O:Query::NICWLP_Build_Item_PWT

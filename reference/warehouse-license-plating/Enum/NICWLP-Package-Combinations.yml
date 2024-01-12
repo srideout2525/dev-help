@@ -1,0 +1,24 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Package Combinations"'
+alId: ID 23093634
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "False"
+  promoted: true
+enumValues:
+- name: Allowed
+  uid: E:Enum::NICWLP_Package_Combinations.Allowed
+- name: Blocked
+  uid: E:Enum::NICWLP_Package_Combinations.Blocked
+- name: '" "'
+  uid: E:Enum::NICWLP_Package_Combinations._
+commentId: O:Enum::NICWLP Package Combinations
+name: '"NICWLP Package Combinations"'
+uid: O:Enum::NICWLP_Package_Combinations

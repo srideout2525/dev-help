@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM Single Inst Sub (Purch)"'
+alId: ID 23094294
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: SingleInstance
+  value: "True"
+  promoted: false
+- name: Permissions
+  value: >-
+    tabledata "Over-Receipt Code" = r,
+            tabledata "Purch. Rcpt. Header" = r,
+            tabledata "Purch. Rcpt. Line" = rm,
+            tabledata "Purchase Header" = r,
+            tabledata "Purchase Line" = r,
+            tabledata "Warehouse Receipt Line" = r,
+            tabledata "Warehouse Setup" = r
+  promoted: false
+commentId: O:Codeunit::NICBOM Single Inst Sub (Purch)
+name: '"NICBOM Single Inst Sub (Purch)"'
+uid: O:Codeunit::NICBOM_Single_Inst_Sub_(Purch)

@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Item Package Ctnt Code"'
+alId: ID 23093637
+baseKind: Page
+kind: Page
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::NICWLP_Item_Package_Ctnt_Code
+  name: '"NICWLP Item Package Ctnt Code"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Item Package Content Codes
+  promoted: false
+- name: ApplicationArea
+  value: '#all'
+  promoted: false
+- name: UsageCategory
+  value: Lists
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "23093637"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::NICWLP_Item_Package_Ctnt_Code
+    name: '"NICWLP Item Package Ctnt Code"'
+    isExternal: false
+commentId: O:Page::NICWLP Item Package Ctnt Code
+name: '"NICWLP Item Package Ctnt Code"'
+uid: O:Page::NICWLP_Item_Package_Ctnt_Code

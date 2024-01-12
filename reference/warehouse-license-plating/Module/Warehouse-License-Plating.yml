@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: Warehouse License Plating by NIC Systems Inc. (99.5.0.0)
+baseKind: Module
+kind: Module
+objectProperties:
+- name: Version
+  value: 99.5.0.0
+  promoted: false
+- name: Publisher
+  value: NIC Systems Inc.
+  promoted: false
+- name: Brief
+  value: Warehouse License Plating
+  promoted: false
+summary: Warehouse License Plating contains features that allow you to view and control package-tracked inventory.
+name: Warehouse License Plating
+uid: N:Module::Warehouse_License_Plating

@@ -1,0 +1,78 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM UnderRcptCode"'
+alId: ID 23094284
+baseKind: Table
+kind: Table
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Under-Receipt Code
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: LookupPageId
+  value: NICBOM UnderRcptCodes
+  promoted: false
+  xrefType:
+    internalReference: O:Page::NICBOM_UnderRcptCodes
+    name: '"NICBOM UnderRcptCodes"'
+    isExternal: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  name: Code
+  uid: F:Table::NICBOM_UnderRcptCode.Code[20]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: Description
+  uid: F:Table::NICBOM_UnderRcptCode.Description[100]
+- type:
+    name: Boolean
+    isExternal: true
+  name: Default
+  uid: F:Table::NICBOM_UnderRcptCode.Default
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Tolerance Pct."'
+  uid: F:Table::NICBOM_UnderRcptCode.Tolerance_Pct#
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::NICBOM_UnderRcptCode.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::NICBOM_UnderRcptCode.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::NICBOM_UnderRcptCode.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::NICBOM_UnderRcptCode.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::NICBOM_UnderRcptCode.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::NICBOM_UnderRcptCode.SystemRowVersion
+commentId: O:Table::NICBOM UnderRcptCode
+name: '"NICBOM UnderRcptCode"'
+uid: O:Table::NICBOM_UnderRcptCode

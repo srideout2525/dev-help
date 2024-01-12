@@ -1,0 +1,73 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Item Package Ctnt Code"'
+alId: ID 23093637
+baseKind: Table
+kind: Table
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Item Package Content Code
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: LookupPageId
+  value: NICWLP Item Package Ctnt Code
+  promoted: false
+  xrefType:
+    internalReference: O:Page::NICWLP_Item_Package_Ctnt_Code
+    name: '"NICWLP Item Package Ctnt Code"'
+    isExternal: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Item No."'
+  uid: F:Table::NICWLP_Item_Package_Ctnt_Code.Item_No#[20]
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"Variant Code"'
+  uid: F:Table::NICWLP_Item_Package_Ctnt_Code.Variant_Code[10]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Package Content Code"'
+  uid: F:Table::NICWLP_Item_Package_Ctnt_Code.Package_Content_Code[20]
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::NICWLP_Item_Package_Ctnt_Code.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::NICWLP_Item_Package_Ctnt_Code.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::NICWLP_Item_Package_Ctnt_Code.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::NICWLP_Item_Package_Ctnt_Code.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::NICWLP_Item_Package_Ctnt_Code.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::NICWLP_Item_Package_Ctnt_Code.SystemRowVersion
+commentId: O:Table::NICWLP Item Package Ctnt Code
+name: '"NICWLP Item Package Ctnt Code"'
+uid: O:Table::NICWLP_Item_Package_Ctnt_Code

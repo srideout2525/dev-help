@@ -1,0 +1,62 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Package Content Comb"'
+alId: ID 23093638
+baseKind: Page
+kind: Page
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::NICWLP_Package_Content_Code
+  name: '"NICWLP Package Content Code"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Package Content Combinations
+  promoted: false
+- name: DataCaptionExpression
+  value: "''"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: LinksAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: Card
+  promoted: true
+- name: SaveValues
+  value: "True"
+  promoted: false
+- name: SourceTable
+  value: "23093638"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::NICWLP_Package_Content_Code
+    name: '"NICWLP Package Content Code"'
+    isExternal: false
+- name: UsageCategory
+  value: Administration
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure SetSelectedRecord(NICWLPPackageCtntGrComb: Record "NICWLP Package Content Comb")'
+    parameters:
+    - id: NICWLPPackageCtntGrComb
+      parameterType:
+        name: Record "NICWLP Package Content Comb"
+        isExternal: true
+  name: SetSelectedRecord
+  uid: M:Page::NICWLP_Package_Content_Comb.SetSelectedRecord(NICWLP_Package_Content_Comb)
+commentId: O:Page::NICWLP Package Content Comb
+name: '"NICWLP Package Content Comb"'
+uid: O:Page::NICWLP_Package_Content_Comb

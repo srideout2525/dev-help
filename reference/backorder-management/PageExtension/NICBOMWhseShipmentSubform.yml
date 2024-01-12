@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: NICBOMWhseShipmentSubform
+alId: ID 23094293
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Warehouse.Document."Whse. Shipment Subform"
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::NICBOMWhseShipmentSubform
+name: NICBOMWhseShipmentSubform
+uid: O:PageExtension::NICBOMWhseShipmentSubform

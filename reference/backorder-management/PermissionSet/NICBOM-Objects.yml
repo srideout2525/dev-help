@@ -1,0 +1,26 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM Objects"'
+alId: ID 23094287
+baseKind: PermissionSet
+kind: PermissionSet
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Permission Set](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-object)'
+objectProperties:
+- name: Caption
+  value: Backorder Management - Objects
+  promoted: false
+- name: Access
+  value: Public
+  promoted: false
+- name: Assignable
+  value: "False"
+  promoted: false
+- name: IncludedPermissionSets
+  value: '#ba27a0c58e6a4be49c55ee05b6704ea3#"NICLIB Library"'
+  promoted: false
+commentId: O:PermissionSet::NICBOM Objects
+name: '"NICBOM Objects"'
+uid: O:PermissionSet::NICBOM_Objects

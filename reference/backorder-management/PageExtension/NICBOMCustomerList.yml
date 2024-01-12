@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: NICBOMCustomerList
+alId: ID 23094298
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Sales.Customer."Customer List"
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::NICBOMCustomerList
+name: NICBOMCustomerList
+uid: O:PageExtension::NICBOMCustomerList

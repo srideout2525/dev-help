@@ -1,0 +1,54 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Check PackageCtntCd WHE"'
+alId: ID 23093648
+baseKind: Query
+kind: Query
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Check Package Content Code Item Ledger Entry
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+queryColumns:
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Integer
+    isExternal: true
+  name: EntryNo
+  uid: C:Query::NICWLP_Check_PackageCtntCd_WHE.ItemLedgerEntry.EntryNo
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Code[50]
+    isExternal: true
+  name: PackageNo
+  uid: C:Query::NICWLP_Check_PackageCtntCd_WHE.ItemLedgerEntry.PackageNo
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: ItemNo
+  uid: C:Query::NICWLP_Check_PackageCtntCd_WHE.ItemLedgerEntry.ItemNo
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Code[10]
+    isExternal: true
+  name: VariantCode
+  uid: C:Query::NICWLP_Check_PackageCtntCd_WHE.ItemLedgerEntry.VariantCode
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Decimal
+    isExternal: true
+  name: Quantity
+  uid: C:Query::NICWLP_Check_PackageCtntCd_WHE.ItemLedgerEntry.Quantity
+commentId: O:Query::NICWLP Check PackageCtntCd WHE
+name: '"NICWLP Check PackageCtntCd WHE"'
+uid: O:Query::NICWLP_Check_PackageCtntCd_WHE

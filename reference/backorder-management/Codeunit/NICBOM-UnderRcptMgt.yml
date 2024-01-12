@@ -1,0 +1,110 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM UnderRcptMgt"'
+alId: ID 23094293
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Permissions
+  value: >-
+    tabledata Item = r,
+            tabledata Location = r,
+            tabledata "Purchase Header" = r,
+            tabledata "Purchase Line" = rm,
+            tabledata Vendor = r,
+            tabledata "Warehouse Receipt Line" = r
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure CheckUnderReceiptQuantity(var PurchaseLine: Record "Purchase Line", xPurchaseLine: Record "Purchase Line", var IsHandled: Boolean)'
+    parameters:
+    - id: PurchaseLine
+      parameterType:
+        name: Record "Purchase Line"
+        isExternal: true
+    - id: xPurchaseLine
+      parameterType:
+        name: Record "Purchase Line"
+        isExternal: true
+    - id: IsHandled
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: CheckUnderReceiptQuantity
+  uid: M:Codeunit::NICBOM_UnderRcptMgt.CheckUnderReceiptQuantity(Purchase_Line@,Purchase_Line,Boolean@)
+- syntax:
+    content: 'procedure CheckWRLUnderReceiptQuantity(var WarehouseReceiptLine: Record "Warehouse Receipt Line", var IsHandled: Boolean)'
+    parameters:
+    - id: WarehouseReceiptLine
+      parameterType:
+        name: Record "Warehouse Receipt Line"
+        isExternal: true
+    - id: IsHandled
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: CheckWRLUnderReceiptQuantity
+  uid: M:Codeunit::NICBOM_UnderRcptMgt.CheckWRLUnderReceiptQuantity(Warehouse_Receipt_Line@,Boolean@)
+- syntax:
+    content: 'procedure GetDefaultUnderReceiptCode(var PurchaseLine: Record "Purchase Line"): Code[20]'
+    parameters:
+    - id: PurchaseLine
+      parameterType:
+        name: Record "Purchase Line"
+        isExternal: true
+    return:
+      returnType:
+        name: Code[20]
+        isExternal: true
+  name: GetDefaultUnderReceiptCode
+  uid: M:Codeunit::NICBOM_UnderRcptMgt.GetDefaultUnderReceiptCode(Purchase_Line@):Code[20]
+- syntax:
+    content: 'procedure IsUnderReceiptAllowed(): Boolean'
+    return:
+      returnType:
+        name: Boolean
+        isExternal: true
+  name: IsUnderReceiptAllowed
+  uid: M:Codeunit::NICBOM_UnderRcptMgt.IsUnderReceiptAllowed:Boolean
+- syntax:
+    content: 'procedure UpdatePurchaseLineUnderReceiptQuantityFromWarehouseReceiptLine(WarehouseReceiptLine: Record "Warehouse Receipt Line")'
+    parameters:
+    - id: WarehouseReceiptLine
+      parameterType:
+        name: Record "Warehouse Receipt Line"
+        isExternal: true
+  name: UpdatePurchaseLineUnderReceiptQuantityFromWarehouseReceiptLine
+  uid: M:Codeunit::NICBOM_UnderRcptMgt.UpdatePurchaseLineUnderReceiptQuantityFromWarehouseReceiptLine(Warehouse_Receipt_Line)
+- syntax:
+    content: 'procedure VerifyUnderReceiptQuantity(WarehouseReceiptLine: Record "Warehouse Receipt Line", xWarehouseReceiptLine: Record "Warehouse Receipt Line")'
+    parameters:
+    - id: WarehouseReceiptLine
+      parameterType:
+        name: Record "Warehouse Receipt Line"
+        isExternal: true
+    - id: xWarehouseReceiptLine
+      parameterType:
+        name: Record "Warehouse Receipt Line"
+        isExternal: true
+  name: VerifyUnderReceiptQuantity
+  uid: M:Codeunit::NICBOM_UnderRcptMgt.VerifyUnderReceiptQuantity(Warehouse_Receipt_Line,Warehouse_Receipt_Line)
+- syntax:
+    content: 'procedure VerifyUnderReceiptQuantityFromURQ(var PurchaseLine: Record "Purchase Line", xPurchaseLine: Record "Purchase Line")'
+    parameters:
+    - id: PurchaseLine
+      parameterType:
+        name: Record "Purchase Line"
+        isExternal: true
+    - id: xPurchaseLine
+      parameterType:
+        name: Record "Purchase Line"
+        isExternal: true
+  name: VerifyUnderReceiptQuantityFromURQ
+  uid: M:Codeunit::NICBOM_UnderRcptMgt.VerifyUnderReceiptQuantityFromURQ(Purchase_Line@,Purchase_Line)
+commentId: O:Codeunit::NICBOM UnderRcptMgt
+name: '"NICBOM UnderRcptMgt"'
+uid: O:Codeunit::NICBOM_UnderRcptMgt

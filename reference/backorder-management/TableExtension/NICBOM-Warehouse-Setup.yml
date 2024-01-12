@@ -1,0 +1,29 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM Warehouse Setup"'
+alId: ID 23094284
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Warehouse.Setup."Warehouse Setup"
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    internalReference: O:Enum::NICBOM_Qty#_To_Handle_Option
+    name: '"NICBOM Qty. To Handle Option"'
+    isExternal: false
+  name: '"NICBOM Default Qty. to Ship"'
+  uid: F:TableExtension::NICBOM_Warehouse_Setup.NICBOM_Default_Qty#_to_Ship
+- type:
+    internalReference: O:Enum::NICBOM_Qty#_To_Handle_Option
+    name: '"NICBOM Qty. To Handle Option"'
+    isExternal: false
+  name: '"NICBOM Default Qty. to Receive"'
+  uid: F:TableExtension::NICBOM_Warehouse_Setup.NICBOM_Default_Qty#_to_Receive
+commentId: O:TableExtension::NICBOM Warehouse Setup
+name: '"NICBOM Warehouse Setup"'
+uid: O:TableExtension::NICBOM_Warehouse_Setup

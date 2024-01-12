@@ -1,0 +1,36 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM UnderShptNotify"'
+alId: ID 23094290
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Permissions
+  value: tabledata "Sales Header" = r
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure RecallUnderShipNotification(SalesHeaderRecordId: RecordId)'
+    parameters:
+    - id: SalesHeaderRecordId
+      parameterType:
+        name: RecordId
+        isExternal: true
+  name: RecallUnderShipNotification
+  uid: M:Codeunit::NICBOM_UnderShptNotify.RecallUnderShipNotification(RecordId)
+- syntax:
+    content: 'procedure ShowUnderShipNotificationFromLine(DocumentNo: Code[20])'
+    parameters:
+    - id: DocumentNo
+      parameterType:
+        name: Code[20]
+        isExternal: true
+  name: ShowUnderShipNotificationFromLine
+  uid: M:Codeunit::NICBOM_UnderShptNotify.ShowUnderShipNotificationFromLine(Code[20])
+commentId: O:Codeunit::NICBOM UnderShptNotify
+name: '"NICBOM UnderShptNotify"'
+uid: O:Codeunit::NICBOM_UnderShptNotify

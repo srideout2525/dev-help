@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM Warehouse Setup"'
+alId: ID 23094284
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Warehouse.Setup."Warehouse Setup"
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::NICBOM Warehouse Setup
+name: '"NICBOM Warehouse Setup"'
+uid: O:PageExtension::NICBOM_Warehouse_Setup

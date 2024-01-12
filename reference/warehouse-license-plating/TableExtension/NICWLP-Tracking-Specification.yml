@@ -1,0 +1,32 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Tracking Specification"'
+alId: ID 23093636
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Inventory.Tracking."Tracking Specification"
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+methods:
+- syntax:
+    content: 'procedure NICWLPAssignDefaultPackageNo(var TrackingSpecification: Record "Tracking Specification", var IsHandled: Boolean)'
+    parameters:
+    - id: TrackingSpecification
+      description: ""
+      parameterType:
+        name: Record "Tracking Specification"
+        isExternal: true
+    - id: IsHandled
+      parameterType:
+        name: Boolean
+        isExternal: true
+  summary: Returns the table number of the internal record line.
+  name: NICWLPAssignDefaultPackageNo
+  uid: M:TableExtension::NICWLP_Tracking_Specification.NICWLPAssignDefaultPackageNo(Tracking_Specification@,Boolean@)
+commentId: O:TableExtension::NICWLP Tracking Specification
+name: '"NICWLP Tracking Specification"'
+uid: O:TableExtension::NICWLP_Tracking_Specification

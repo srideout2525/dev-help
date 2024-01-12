@@ -1,0 +1,30 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Packages"'
+alId: ID 23093645
+baseKind: Query
+kind: Query
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Packages
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+queryColumns:
+- dataItem: PackageNoInformation
+  columnType:
+    name: Code[50]
+    isExternal: true
+  name: PackageNo
+  uid: C:Query::NICWLP_Packages.PackageNoInformation.PackageNo
+commentId: O:Query::NICWLP Packages
+name: '"NICWLP Packages"'
+uid: O:Query::NICWLP_Packages

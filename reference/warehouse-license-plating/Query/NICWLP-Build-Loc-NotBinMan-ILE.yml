@@ -1,0 +1,84 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Build Loc NotBinMan ILE"'
+alId: ID 23093639
+baseKind: Query
+kind: Query
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Build Loc. Not Bin Man Item Ledger Entry
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+queryColumns:
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Code[50]
+    isExternal: true
+  name: PackageNo
+  uid: C:Query::NICWLP_Build_Loc_NotBinMan_ILE.Location.ItemLedgerEntry.PackageNo
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Code[10]
+    isExternal: true
+  name: LocationCode
+  uid: C:Query::NICWLP_Build_Loc_NotBinMan_ILE.Location.ItemLedgerEntry.LocationCode
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: ItemNo
+  uid: C:Query::NICWLP_Build_Loc_NotBinMan_ILE.Location.ItemLedgerEntry.ItemNo
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Code[10]
+    isExternal: true
+  name: VariantCode
+  uid: C:Query::NICWLP_Build_Loc_NotBinMan_ILE.Location.ItemLedgerEntry.VariantCode
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Code[50]
+    isExternal: true
+  name: LotNo
+  uid: C:Query::NICWLP_Build_Loc_NotBinMan_ILE.Location.ItemLedgerEntry.LotNo
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Code[50]
+    isExternal: true
+  name: SerialNo
+  uid: C:Query::NICWLP_Build_Loc_NotBinMan_ILE.Location.ItemLedgerEntry.SerialNo
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Code[10]
+    isExternal: true
+  name: UnitofMeasureCode
+  uid: C:Query::NICWLP_Build_Loc_NotBinMan_ILE.Location.ItemLedgerEntry.UnitofMeasureCode
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Decimal
+    isExternal: true
+  name: RemainingQuantity
+  uid: C:Query::NICWLP_Build_Loc_NotBinMan_ILE.Location.ItemLedgerEntry.RemainingQuantity
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Decimal
+    isExternal: true
+  name: QtyperUnitofMeasure
+  uid: C:Query::NICWLP_Build_Loc_NotBinMan_ILE.Location.ItemLedgerEntry.QtyperUnitofMeasure
+- dataItem: ItemLedgerEntry
+  columnType:
+    name: Date
+    isExternal: true
+  name: ExpirationDate
+  uid: C:Query::NICWLP_Build_Loc_NotBinMan_ILE.Location.ItemLedgerEntry.ExpirationDate
+commentId: O:Query::NICWLP Build Loc NotBinMan ILE
+name: '"NICWLP Build Loc NotBinMan ILE"'
+uid: O:Query::NICWLP_Build_Loc_NotBinMan_ILE

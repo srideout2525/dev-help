@@ -1,0 +1,193 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM UnderShptMgt"'
+alId: ID 23094301
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Permissions
+  value: >-
+    tabledata Customer = r,
+            tabledata Field = r,
+            tabledata Item = r,
+            tabledata Location = r,
+            tabledata "Sales Header" = r,
+            tabledata "Sales Line" = rm,
+            tabledata "Sales Shipment Line" = rm,
+            tabledata "Warehouse Shipment Line" = r
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure CheckUnderShipQuantity(var SalesLine: Record "Sales Line", var xSalesLine: Record "Sales Line", var IsHandled: Boolean)'
+    parameters:
+    - id: SalesLine
+      parameterType:
+        name: Record "Sales Line"
+        isExternal: true
+    - id: xSalesLine
+      parameterType:
+        name: Record "Sales Line"
+        isExternal: true
+    - id: IsHandled
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: CheckUnderShipQuantity
+  uid: M:Codeunit::NICBOM_UnderShptMgt.CheckUnderShipQuantity(Sales_Line@,Sales_Line@,Boolean@)
+- syntax:
+    content: 'procedure CheckWSLUnderShipQuantity(var WarehouseShipmentLine: Record "Warehouse Shipment Line", var IsHandled: Boolean)'
+    parameters:
+    - id: WarehouseShipmentLine
+      parameterType:
+        name: Record "Warehouse Shipment Line"
+        isExternal: true
+    - id: IsHandled
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: CheckWSLUnderShipQuantity
+  uid: M:Codeunit::NICBOM_UnderShptMgt.CheckWSLUnderShipQuantity(Warehouse_Shipment_Line@,Boolean@)
+- syntax:
+    content: 'procedure GetDefaultUnderShipCode(SalesLine: Record "Sales Line"): Code[20]'
+    parameters:
+    - id: SalesLine
+      parameterType:
+        name: Record "Sales Line"
+        isExternal: true
+    return:
+      returnType:
+        name: Code[20]
+        isExternal: true
+  name: GetDefaultUnderShipCode
+  uid: M:Codeunit::NICBOM_UnderShptMgt.GetDefaultUnderShipCode(Sales_Line):Code[20]
+- syntax:
+    content: 'procedure IsUnderShipAllowed(): Boolean'
+    return:
+      returnType:
+        name: Boolean
+        isExternal: true
+  name: IsUnderShipAllowed
+  uid: M:Codeunit::NICBOM_UnderShptMgt.IsUnderShipAllowed:Boolean
+- syntax:
+    content: 'procedure SalesPost_OnBeforeFinalizePosting(var SalesHeader: Record "Sales Header", var TempSalesLineGlobal: Record "Sales Line")'
+    parameters:
+    - id: SalesHeader
+      parameterType:
+        name: Record "Sales Header"
+        isExternal: true
+    - id: TempSalesLineGlobal
+      parameterType:
+        name: Record "Sales Line"
+        isExternal: true
+  name: SalesPost_OnBeforeFinalizePosting
+  uid: M:Codeunit::NICBOM_UnderShptMgt.SalesPost_OnBeforeFinalizePosting(Sales_Header@,Sales_Line@)
+- syntax:
+    content: 'procedure SalesPost_OnRunOnBeforeMakeInventoryAdjustment(var SalesHeader: Record "Sales Header", PreviewMode: Boolean)'
+    parameters:
+    - id: SalesHeader
+      parameterType:
+        name: Record "Sales Header"
+        isExternal: true
+    - id: PreviewMode
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: SalesPost_OnRunOnBeforeMakeInventoryAdjustment
+  uid: M:Codeunit::NICBOM_UnderShptMgt.SalesPost_OnRunOnBeforeMakeInventoryAdjustment(Sales_Header@,Boolean)
+- syntax:
+    content: 'procedure UpdateSalesLineUnderShipQuantityFromWarehouseShipmentLine(WarehouseShipLine: Record "Warehouse Shipment Line")'
+    parameters:
+    - id: WarehouseShipLine
+      parameterType:
+        name: Record "Warehouse Shipment Line"
+        isExternal: true
+  name: UpdateSalesLineUnderShipQuantityFromWarehouseShipmentLine
+  uid: M:Codeunit::NICBOM_UnderShptMgt.UpdateSalesLineUnderShipQuantityFromWarehouseShipmentLine(Warehouse_Shipment_Line)
+- syntax:
+    content: 'procedure VerifyUnderShipQuantityFromUnderShipQuantity(SalesLine: Record "Sales Line", xSalesLine: Record "Sales Line")'
+    parameters:
+    - id: SalesLine
+      parameterType:
+        name: Record "Sales Line"
+        isExternal: true
+    - id: xSalesLine
+      parameterType:
+        name: Record "Sales Line"
+        isExternal: true
+  name: VerifyUnderShipQuantityFromUnderShipQuantity
+  uid: M:Codeunit::NICBOM_UnderShptMgt.VerifyUnderShipQuantityFromUnderShipQuantity(Sales_Line,Sales_Line)
+- syntax:
+    content: 'procedure VerifyUnderShipQuantityFromWhseShipmentLine(WarehouseShipLine: Record "Warehouse Shipment Line", xWarehouseShipLine: Record "Warehouse Shipment Line")'
+    parameters:
+    - id: WarehouseShipLine
+      parameterType:
+        name: Record "Warehouse Shipment Line"
+        isExternal: true
+    - id: xWarehouseShipLine
+      parameterType:
+        name: Record "Warehouse Shipment Line"
+        isExternal: true
+  name: VerifyUnderShipQuantityFromWhseShipmentLine
+  uid: M:Codeunit::NICBOM_UnderShptMgt.VerifyUnderShipQuantityFromWhseShipmentLine(Warehouse_Shipment_Line,Warehouse_Shipment_Line)
+- syntax:
+    content: 'procedure WhseValidateSourceLine_OnBeforeVerifyFieldNotChanged(NewRecRef: RecordRef, OldRecRef: RecordRef, FieldNumber: Integer, var IsHandled: Boolean)'
+    parameters:
+    - id: NewRecRef
+      parameterType:
+        name: RecordRef
+        isExternal: true
+    - id: OldRecRef
+      parameterType:
+        name: RecordRef
+        isExternal: true
+    - id: FieldNumber
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: IsHandled
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: WhseValidateSourceLine_OnBeforeVerifyFieldNotChanged
+  uid: M:Codeunit::NICBOM_UnderShptMgt.WhseValidateSourceLine_OnBeforeVerifyFieldNotChanged(RecordRef,RecordRef,Integer,Boolean@)
+- syntax:
+    content: 'procedure GetOverShipmentQuantityFromNICOVS(var SalesLine: Record "Sales Line", var OverShipmentQtyFieldCaption: Text[80], var OverShipmentQuantity: Decimal)'
+    parameters:
+    - id: SalesLine
+      parameterType:
+        name: Record "Sales Line"
+        isExternal: true
+    - id: OverShipmentQtyFieldCaption
+      parameterType:
+        name: Text[80]
+        isExternal: true
+    - id: OverShipmentQuantity
+      parameterType:
+        name: Decimal
+        isExternal: true
+  name: GetOverShipmentQuantityFromNICOVS
+  uid: M:Codeunit::NICBOM_UnderShptMgt.GetOverShipmentQuantityFromNICOVS(Sales_Line@,Text[80]@,Decimal@)
+- syntax:
+    content: 'procedure GetOverShipmentQuantityFromNICOVS(var WarehouseShipmentLine: Record "Warehouse Shipment Line", var OverShipmentQtyFieldCaption: Text[80], var OverShipmentQuantity: Decimal)'
+    parameters:
+    - id: WarehouseShipmentLine
+      parameterType:
+        name: Record "Warehouse Shipment Line"
+        isExternal: true
+    - id: OverShipmentQtyFieldCaption
+      parameterType:
+        name: Text[80]
+        isExternal: true
+    - id: OverShipmentQuantity
+      parameterType:
+        name: Decimal
+        isExternal: true
+  name: GetOverShipmentQuantityFromNICOVS
+  uid: M:Codeunit::NICBOM_UnderShptMgt.GetOverShipmentQuantityFromNICOVS(Warehouse_Shipment_Line@,Text[80]@,Decimal@)
+commentId: O:Codeunit::NICBOM UnderShptMgt
+name: '"NICBOM UnderShptMgt"'
+uid: O:Codeunit::NICBOM_UnderShptMgt

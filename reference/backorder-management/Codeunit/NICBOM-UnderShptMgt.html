@@ -1,0 +1,679 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" ">
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../public/aldoc_logo.svg" alt="Documentation">
+            Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="O:Codeunit::NICBOM_UnderShptMgt">
+  <h1>Codeunit &quot;NICBOM UnderShptMgt&quot;</h1>
+
+
+<div class="font-style-italic">ID 23094301</div>
+
+
+
+
+
+
+
+
+  	<h2 id="properties">Properties</h2>
+
+  	<table class="table">
+  		<thead>
+  			<tr>
+  				<th>Name</th>
+  				<th>Value</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+  			<tr>
+  					<td>Permissions</td>
+  					<td class="font-style-italic">
+							tabledata Customer = r,
+        tabledata Field = r,
+        tabledata Item = r,
+        tabledata Location = r,
+        tabledata "Sales Header" = r,
+        tabledata "Sales Line" = rm,
+        tabledata "Sales Shipment Line" = rm,
+        tabledata "Warehouse Shipment Line" = r
+  					</td>
+  			</tr>
+  		</tbody>
+  	</table>
+  	<h2 id="methods">Methods</h2>
+   <h3 class="memberNameHolder">CheckUnderShipQuantity</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure CheckUnderShipQuantity(var SalesLine: Record &quot;Sales Line&quot;, var xSalesLine: Record &quot;Sales Line&quot;, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SalesLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								xSalesLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">CheckWSLUnderShipQuantity</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure CheckWSLUnderShipQuantity(var WarehouseShipmentLine: Record &quot;Warehouse Shipment Line&quot;, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								WarehouseShipmentLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Warehouse Shipment Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetDefaultUnderShipCode</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetDefaultUnderShipCode(SalesLine: Record &quot;Sales Line&quot;): Code[20]</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SalesLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Code[20]               </td>
+   						<td>
+							
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">IsUnderShipAllowed</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure IsUnderShipAllowed(): Boolean</code></pre>
+
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Boolean               </td>
+   						<td>
+							
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">SalesPost_OnBeforeFinalizePosting</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SalesPost_OnBeforeFinalizePosting(var SalesHeader: Record &quot;Sales Header&quot;, var TempSalesLineGlobal: Record &quot;Sales Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SalesHeader
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Header&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempSalesLineGlobal
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SalesPost_OnRunOnBeforeMakeInventoryAdjustment</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SalesPost_OnRunOnBeforeMakeInventoryAdjustment(var SalesHeader: Record &quot;Sales Header&quot;, PreviewMode: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SalesHeader
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Header&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PreviewMode
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">UpdateSalesLineUnderShipQuantityFromWarehouseShipmentLine</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure UpdateSalesLineUnderShipQuantityFromWarehouseShipmentLine(WarehouseShipLine: Record &quot;Warehouse Shipment Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								WarehouseShipLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Warehouse Shipment Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">VerifyUnderShipQuantityFromUnderShipQuantity</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure VerifyUnderShipQuantityFromUnderShipQuantity(SalesLine: Record &quot;Sales Line&quot;, xSalesLine: Record &quot;Sales Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SalesLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								xSalesLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">VerifyUnderShipQuantityFromWhseShipmentLine</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure VerifyUnderShipQuantityFromWhseShipmentLine(WarehouseShipLine: Record &quot;Warehouse Shipment Line&quot;, xWarehouseShipLine: Record &quot;Warehouse Shipment Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								WarehouseShipLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Warehouse Shipment Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								xWarehouseShipLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Warehouse Shipment Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">WhseValidateSourceLine_OnBeforeVerifyFieldNotChanged</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure WhseValidateSourceLine_OnBeforeVerifyFieldNotChanged(NewRecRef: RecordRef, OldRecRef: RecordRef, FieldNumber: Integer, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								NewRecRef
+   							</td>
+   							<td class="font-style-italic">
+RecordRef                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OldRecRef
+   							</td>
+   							<td class="font-style-italic">
+RecordRef                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FieldNumber
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetOverShipmentQuantityFromNICOVS</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetOverShipmentQuantityFromNICOVS(var SalesLine: Record &quot;Sales Line&quot;, var OverShipmentQtyFieldCaption: Text[80], var OverShipmentQuantity: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SalesLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OverShipmentQtyFieldCaption
+   							</td>
+   							<td class="font-style-italic">
+Text[80]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OverShipmentQuantity
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetOverShipmentQuantityFromNICOVS</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetOverShipmentQuantityFromNICOVS(var WarehouseShipmentLine: Record &quot;Warehouse Shipment Line&quot;, var OverShipmentQtyFieldCaption: Text[80], var OverShipmentQuantity: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								WarehouseShipmentLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Warehouse Shipment Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OverShipmentQtyFieldCaption
+   							</td>
+   							<td class="font-style-italic">
+Text[80]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OverShipmentQuantity
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+
+  	<h2 id="see-also">See also</h2>
+  	<ul>
+  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object">Codeunit</a></p>
+</li>
+  	</ul>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Made with <a href="https://go.microsoft.com/fwlink/?linkid=2247728">ALDoc</a> and <a href="https://dotnet.github.io/docfx">DocFx</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

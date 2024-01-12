@@ -1,0 +1,43 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM UnderRcptCodes"'
+alId: ID 23094284
+baseKind: Page
+kind: Page
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::NICBOM_UnderRcptCode
+  name: '"NICBOM UnderRcptCode"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Under-Receipt Codes
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: UsageCategory
+  value: Lists
+  promoted: false
+- name: SourceTable
+  value: "23094284"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::NICBOM_UnderRcptCode
+    name: '"NICBOM UnderRcptCode"'
+    isExternal: false
+- name: AboutTitle
+  value: Do you accept backorders from vendors?
+  promoted: false
+- name: AboutText
+  value: Setup rules by vendor and item to control if you accept backorders.
+  promoted: false
+commentId: O:Page::NICBOM UnderRcptCodes
+name: '"NICBOM UnderRcptCodes"'
+uid: O:Page::NICBOM_UnderRcptCodes

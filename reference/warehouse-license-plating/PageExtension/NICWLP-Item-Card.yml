@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Item Card"'
+alId: ID 23093634
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Inventory.Item."Item Card"
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::NICWLP Item Card
+name: '"NICWLP Item Card"'
+uid: O:PageExtension::NICWLP_Item_Card

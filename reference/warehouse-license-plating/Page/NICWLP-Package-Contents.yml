@@ -1,0 +1,76 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Package Contents"'
+alId: ID 23093657
+baseKind: Page
+kind: Page
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::NICWLP_Package_Contents_Buffer
+  name: '"NICWLP Package Contents Buffer"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: AboutText
+  value: On this page, you can review packages you have in inventory.
+  promoted: false
+- name: AboutTitle
+  value: About package contents
+  promoted: false
+- name: ApplicationArea
+  value: '#Warehouse'
+  promoted: false
+- name: Caption
+  value: Package Contents
+  promoted: false
+- name: DataCaptionExpression
+  value: DataCaption
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: Worksheet
+  promoted: true
+- name: SourceTable
+  value: "23093634"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::NICWLP_Package_Contents_Buffer
+    name: '"NICWLP Package Contents Buffer"'
+    isExternal: false
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure GetItemDescr(ItemNos: Code[20], VariantCode: Code[10], var ItemsDescription: Text[100])'
+    parameters:
+    - id: ItemNos
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: VariantCode
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: ItemsDescription
+      parameterType:
+        name: Text[100]
+        isExternal: true
+  name: GetItemDescr
+  uid: M:Page::NICWLP_Package_Contents.GetItemDescr(Code[20],Code[10],Text[100]@)
+commentId: O:Page::NICWLP Package Contents
+name: '"NICWLP Package Contents"'
+uid: O:Page::NICWLP_Package_Contents

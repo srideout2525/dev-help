@@ -1,0 +1,16 @@
+﻿{
+  "Modules": [
+    {
+      "AppId": "5c585535-a7b2-432d-8525-5a3e5425953d",
+      "Name": "Warehouse License Plating",
+      "Publisher": "NIC Systems Inc.",
+      "Version": "99.5.0.0"
+    },
+    {
+      "AppId": "dd60e944-2bfb-433c-b081-07e9d4a1b4c7",
+      "Name": "Backorder Management",
+      "Publisher": "NIC Systems Inc.",
+      "Version": "99.0.0.0"
+    }
+  ]
+}

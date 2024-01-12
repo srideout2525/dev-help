@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Install"'
+alId: ID 23093672
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Subtype
+  value: Install
+  promoted: false
+commentId: O:Codeunit::NICWLP Install
+name: '"NICWLP Install"'
+uid: O:Codeunit::NICWLP_Install

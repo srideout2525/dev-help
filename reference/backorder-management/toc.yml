@@ -1,0 +1,115 @@
+﻿items:
+- name: Overview
+  uid: N:Module::Backorder_Management
+- name: Reference
+  items:
+  - name: Tables
+    items:
+    - name: NICBOM ItemCustUnderShptCode
+      uid: O:Table::NICBOM_ItemCustUnderShptCode
+    - name: NICBOM ItemVendorUnderRcptCode
+      uid: O:Table::NICBOM_ItemVendorUnderRcptCode
+    - name: NICBOM RESTStripeConfig
+      uid: O:Table::NICBOM_RESTStripeConfig
+    - name: NICBOM UnderRcptCode
+      uid: O:Table::NICBOM_UnderRcptCode
+    - name: NICBOM UnderShptCode
+      uid: O:Table::NICBOM_UnderShptCode
+  - name: Codeunits
+    items:
+    - name: NICBOM Single Inst Sub (Purch)
+      uid: O:Codeunit::NICBOM_Single_Inst_Sub_(Purch)
+    - name: NICBOM Single Inst Sub (Sales)
+      uid: O:Codeunit::NICBOM_Single_Inst_Sub_(Sales)
+    - name: NICBOM UnderRcptMgt
+      uid: O:Codeunit::NICBOM_UnderRcptMgt
+    - name: NICBOM UnderRcptNotify
+      uid: O:Codeunit::NICBOM_UnderRcptNotify
+    - name: NICBOM UnderShptMgt
+      uid: O:Codeunit::NICBOM_UnderShptMgt
+    - name: NICBOM UnderShptNotify
+      uid: O:Codeunit::NICBOM_UnderShptNotify
+  - name: Pages
+    items:
+    - name: NICBOM CustItemUnderShptCodes
+      uid: O:Page::NICBOM_CustItemUnderShptCodes
+    - name: NICBOM ItemCustUnderShptCodes
+      uid: O:Page::NICBOM_ItemCustUnderShptCodes
+    - name: NICBOM ItemVendUnderRcptCodes
+      uid: O:Page::NICBOM_ItemVendUnderRcptCodes
+    - name: NICBOM UnderRcptCodes
+      uid: O:Page::NICBOM_UnderRcptCodes
+    - name: NICBOM UnderShptCodes
+      uid: O:Page::NICBOM_UnderShptCodes
+    - name: NICBOM VendItemUnderRcptCodes
+      uid: O:Page::NICBOM_VendItemUnderRcptCodes
+  - name: Reports
+    items:
+    - name: NICBOM DeleteObsoleteWhsePicks
+      uid: O:Report::NICBOM_DeleteObsoleteWhsePicks
+  - name: PageExtensions
+    items:
+    - name: NICBOM ItemCard
+      uid: O:PageExtension::NICBOM_ItemCard
+    - name: NICBOM ItemList
+      uid: O:PageExtension::NICBOM_ItemList
+    - name: NICBOM VendorCard
+      uid: O:PageExtension::NICBOM_VendorCard
+    - name: NICBOM VendorList
+      uid: O:PageExtension::NICBOM_VendorList
+    - name: NICBOM Warehouse Setup
+      uid: O:PageExtension::NICBOM_Warehouse_Setup
+    - name: NICBOMCustomerCard
+      uid: O:PageExtension::NICBOMCustomerCard
+    - name: NICBOMCustomerList
+      uid: O:PageExtension::NICBOMCustomerList
+    - name: NICBOMPurchaseOrderSubform
+      uid: O:PageExtension::NICBOMPurchaseOrderSubform
+    - name: NICBOMSalesOrderSubform
+      uid: O:PageExtension::NICBOMSalesOrderSubform
+    - name: NICBOMWhseReceiptSubform
+      uid: O:PageExtension::NICBOMWhseReceiptSubform
+    - name: NICBOMWhseShipmentSubform
+      uid: O:PageExtension::NICBOMWhseShipmentSubform
+  - name: TableExtensions
+    items:
+    - name: NICBOM Customer
+      uid: O:TableExtension::NICBOM_Customer
+    - name: NICBOM Item
+      uid: O:TableExtension::NICBOM_Item
+    - name: NICBOM Purchase Line
+      uid: O:TableExtension::NICBOM_Purchase_Line
+    - name: NICBOM PurchRcptLine
+      uid: O:TableExtension::NICBOM_PurchRcptLine
+    - name: NICBOM Sales Line
+      uid: O:TableExtension::NICBOM_Sales_Line
+    - name: NICBOM SalesShipmentLine
+      uid: O:TableExtension::NICBOM_SalesShipmentLine
+    - name: NICBOM Vendor
+      uid: O:TableExtension::NICBOM_Vendor
+    - name: NICBOM Warehouse Setup
+      uid: O:TableExtension::NICBOM_Warehouse_Setup
+    - name: NICBOM WarehouseReceiptLine
+      uid: O:TableExtension::NICBOM_WarehouseReceiptLine
+    - name: NICBOM WarehouseShipmentLine
+      uid: O:TableExtension::NICBOM_WarehouseShipmentLine
+  - name: Enums
+    items:
+    - name: NICBOM Qty. To Handle Option
+      uid: O:Enum::NICBOM_Qty#_To_Handle_Option
+  - name: PermissionSets
+    items:
+    - name: NICBOM BackorderEdit
+      uid: O:PermissionSet::NICBOM_BackorderEdit
+    - name: NICBOM BackorderObjects
+      uid: O:PermissionSet::NICBOM_BackorderObjects
+    - name: NICBOM BackorderRead
+      uid: O:PermissionSet::NICBOM_BackorderRead
+    - name: NICBOM Objects
+      uid: O:PermissionSet::NICBOM_Objects
+- name: Obsoleted
+  items:
+  - name: "22.2"
+    uid: N:Module::Backorder_Management_obsolete_by_22.2
+  - name: "23.0"
+    uid: N:Module::Backorder_Management_obsolete_by_23.0

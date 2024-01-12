@@ -1,0 +1,23 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Get Package Content"'
+alId: ID 23093642
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Permissions
+  value: >-
+    tabledata Bin = r,
+            tabledata "Inventory Setup" = r,
+            tabledata Item = r,
+            tabledata "Item Register" = r,
+            tabledata "Item Variant" = r,
+            tabledata "Warehouse Register" = r
+  promoted: false
+commentId: O:Codeunit::NICWLP Get Package Content
+name: '"NICWLP Get Package Content"'
+uid: O:Codeunit::NICWLP_Get_Package_Content

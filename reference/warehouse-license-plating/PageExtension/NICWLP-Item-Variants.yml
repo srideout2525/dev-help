@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Item Variants"'
+alId: ID 23093641
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Inventory.Item."Item Variants"
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::NICWLP Item Variants
+name: '"NICWLP Item Variants"'
+uid: O:PageExtension::NICWLP_Item_Variants

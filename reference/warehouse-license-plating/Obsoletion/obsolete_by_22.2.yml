@@ -1,0 +1,11 @@
+﻿### YamlMime:BusinessCentralObsoletionList
+tag: "22.2"
+groups:
+- groupName: "22.2"
+  symbols:
+  - kind: Table
+    internalReference: O:Table::NICWLP_RESTStripeConfig
+    name: Table 23093635 "NICWLP RESTStripeConfig"
+    reason: Replaced by AppSource pricing
+  uid: N:Module::Warehouse_License_Plating_obsolete_by_22.2#22.2
+uid: N:Module::Warehouse_License_Plating_obsolete_by_22.2

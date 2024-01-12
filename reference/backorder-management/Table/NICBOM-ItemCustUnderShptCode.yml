@@ -1,0 +1,75 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM ItemCustUnderShptCode"'
+alId: ID 23094287
+baseKind: Table
+kind: Table
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Item Customer Under-Shipment Code
+  promoted: false
+- name: LookupPageID
+  value: NICBOM ItemCustUnderShptCodes
+  promoted: false
+  xrefType:
+    internalReference: O:Page::NICBOM_ItemCustUnderShptCodes
+    name: '"NICBOM ItemCustUnderShptCodes"'
+    isExternal: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Item No."'
+  uid: F:Table::NICBOM_ItemCustUnderShptCode.Item_No#[20]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Customer No."'
+  uid: F:Table::NICBOM_ItemCustUnderShptCode.Customer_No#[20]
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"Variant Code"'
+  uid: F:Table::NICBOM_ItemCustUnderShptCode.Variant_Code[10]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Under-Shipment Code"'
+  uid: F:Table::NICBOM_ItemCustUnderShptCode.Under-Shipment_Code[20]
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::NICBOM_ItemCustUnderShptCode.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::NICBOM_ItemCustUnderShptCode.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::NICBOM_ItemCustUnderShptCode.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::NICBOM_ItemCustUnderShptCode.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::NICBOM_ItemCustUnderShptCode.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::NICBOM_ItemCustUnderShptCode.SystemRowVersion
+commentId: O:Table::NICBOM ItemCustUnderShptCode
+name: '"NICBOM ItemCustUnderShptCode"'
+uid: O:Table::NICBOM_ItemCustUnderShptCode

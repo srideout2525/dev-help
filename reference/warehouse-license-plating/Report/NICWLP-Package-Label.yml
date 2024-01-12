@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Package Label"'
+alId: ID 23093634
+baseKind: Report
+kind: Report
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Package Label
+  promoted: false
+- name: DefaultRenderingLayout
+  value: .\src\report\PackageLabel.rdl
+  promoted: false
+- name: UsageCategory
+  value: ReportsAndAnalysis
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Package Label
+  promoted: false
+- name: DefaultRenderingLayout
+  value: .\src\report\PackageLabel.rdl
+  promoted: false
+- name: UsageCategory
+  value: ReportsAndAnalysis
+  promoted: false
+commentId: O:Report::NICWLP Package Label
+name: '"NICWLP Package Label"'
+uid: O:Report::NICWLP_Package_Label

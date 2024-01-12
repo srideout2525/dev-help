@@ -1,0 +1,135 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Check Package"'
+alId: ID 23093637
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Permissions
+  value: >-
+    tabledata "Item Register" = r,
+            tabledata "Warehouse Register" = r
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure BuildPackageContents(var TempPackageContentsBuffer: Record "NICWLP Package Contents Buffer" temporary, InludeDefaultPackages: Boolean, InludeBlankPackages: Boolean)'
+    parameters:
+    - id: TempPackageContentsBuffer
+      parameterType:
+        name: Record "NICWLP Package Contents Buffer" temporary
+        isExternal: true
+    - id: InludeDefaultPackages
+      parameterType:
+        name: Boolean
+        isExternal: true
+    - id: InludeBlankPackages
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: BuildPackageContents
+  uid: M:Codeunit::NICWLP_Check_Package.BuildPackageContents(NICWLP_Package_Contents_Buffer@,Boolean,Boolean)
+- syntax:
+    content: 'procedure GetPackageContent(var TempPackageContentsBuffer: Record "NICWLP Package Contents Buffer" temporary)'
+    parameters:
+    - id: TempPackageContentsBuffer
+      parameterType:
+        name: Record "NICWLP Package Contents Buffer" temporary
+        isExternal: true
+  name: GetPackageContent
+  uid: M:Codeunit::NICWLP_Check_Package.GetPackageContent(NICWLP_Package_Contents_Buffer@)
+- syntax:
+    content: 'procedure BuildPackageContentsConflicts(var TempPackageContentsBuffer: Record "NICWLP Package Contents Buffer" temporary)'
+    parameters:
+    - id: TempPackageContentsBuffer
+      parameterType:
+        name: Record "NICWLP Package Contents Buffer" temporary
+        isExternal: true
+  name: BuildPackageContentsConflicts
+  uid: M:Codeunit::NICWLP_Check_Package.BuildPackageContentsConflicts(NICWLP_Package_Contents_Buffer@)
+- syntax:
+    content: procedure CheckDefaultPackageNo()
+  name: CheckDefaultPackageNo
+  uid: M:Codeunit::NICWLP_Check_Package.CheckDefaultPackageNo
+- syntax:
+    content: 'procedure CheckPackage(CheckILE: Boolean, CheckWHE: Boolean)'
+    parameters:
+    - id: CheckILE
+      parameterType:
+        name: Boolean
+        isExternal: true
+    - id: CheckWHE
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: CheckPackage
+  uid: M:Codeunit::NICWLP_Check_Package.CheckPackage(Boolean,Boolean)
+- syntax:
+    content: 'procedure CheckPackage(ItemRegNo: Integer, WhseRegNo: Integer)'
+    parameters:
+    - id: ItemRegNo
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: WhseRegNo
+      parameterType:
+        name: Integer
+        isExternal: true
+  name: CheckPackage
+  uid: M:Codeunit::NICWLP_Check_Package.CheckPackage(Integer,Integer)
+- syntax:
+    content: 'procedure CheckPackageContents(): Boolean'
+    return:
+      returnType:
+        name: Boolean
+        isExternal: true
+  name: CheckPackageContents
+  uid: M:Codeunit::NICWLP_Check_Package.CheckPackageContents:Boolean
+- syntax:
+    content: 'procedure DefaultPackageNoExist(): Boolean'
+    return:
+      returnType:
+        name: Boolean
+        isExternal: true
+  name: DefaultPackageNoExist
+  uid: M:Codeunit::NICWLP_Check_Package.DefaultPackageNoExist:Boolean
+- syntax:
+    content: 'procedure GetDefaultPackageNo(var DefaultPackNo: Code[50]): Boolean'
+    parameters:
+    - id: DefaultPackNo
+      parameterType:
+        name: Code[50]
+        isExternal: true
+    return:
+      returnType:
+        name: Boolean
+        isExternal: true
+  name: GetDefaultPackageNo
+  uid: M:Codeunit::NICWLP_Check_Package.GetDefaultPackageNo(Code[50]@):Boolean
+- syntax:
+    content: 'procedure IsStrictPackagePosting(): Boolean'
+    return:
+      returnType:
+        name: Boolean
+        isExternal: true
+  name: IsStrictPackagePosting
+  uid: M:Codeunit::NICWLP_Check_Package.IsStrictPackagePosting:Boolean
+- syntax:
+    content: 'procedure PackageContentsConflictsNotification(NoOfConflicts: Integer)'
+    parameters:
+    - id: NoOfConflicts
+      parameterType:
+        name: Integer
+        isExternal: true
+  name: PackageContentsConflictsNotification
+  uid: M:Codeunit::NICWLP_Check_Package.PackageContentsConflictsNotification(Integer)
+- syntax:
+    content: procedure PackageContentsNotStrictPostingNotification()
+  name: PackageContentsNotStrictPostingNotification
+  uid: M:Codeunit::NICWLP_Check_Package.PackageContentsNotStrictPostingNotification
+commentId: O:Codeunit::NICWLP Check Package
+name: '"NICWLP Check Package"'
+uid: O:Codeunit::NICWLP_Check_Package

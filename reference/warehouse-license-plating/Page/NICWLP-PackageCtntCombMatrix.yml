@@ -1,0 +1,68 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP PackageCtntCombMatrix"'
+alId: ID 23093639
+baseKind: Page
+kind: Page
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::NICWLP_Package_Content_Code
+  name: '"NICWLP Package Content Code"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Package Content Combinations Matrix
+  promoted: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: LinksAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "23093638"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::NICWLP_Package_Content_Code
+    name: '"NICWLP Package Content Code"'
+    isExternal: false
+methods:
+- syntax:
+    content: 'procedure Load(MatrixColumns1: array[32] of Text[1024], var MatrixRecords1: array[32] of Record "NICWLP Package Content Code", _ShowColumnName: Boolean)'
+    parameters:
+    - id: MatrixColumns1
+      parameterType:
+        name: array[32] of Text[1024]
+        isExternal: true
+    - id: MatrixRecords1
+      parameterType:
+        name: array[32] of Record "NICWLP Package Content Code"
+        isExternal: true
+    - id: _ShowColumnName
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: Load
+  uid: M:Page::NICWLP_PackageCtntCombMatrix.Load(Text[1024][],NICWLP_Package_Content_Code[]@,Boolean)
+- syntax:
+    content: 'procedure SetSelectedPackCtntCode(PackCtntCode: Code[20])'
+    parameters:
+    - id: PackCtntCode
+      parameterType:
+        name: Code[20]
+        isExternal: true
+  name: SetSelectedPackCtntCode
+  uid: M:Page::NICWLP_PackageCtntCombMatrix.SetSelectedPackCtntCode(Code[20])
+- syntax:
+    content: procedure SetVisible()
+  name: SetVisible
+  uid: M:Page::NICWLP_PackageCtntCombMatrix.SetVisible
+commentId: O:Page::NICWLP PackageCtntCombMatrix
+name: '"NICWLP PackageCtntCombMatrix"'
+uid: O:Page::NICWLP_PackageCtntCombMatrix

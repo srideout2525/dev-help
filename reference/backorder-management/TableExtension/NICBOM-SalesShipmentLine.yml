@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM SalesShipmentLine"'
+alId: ID 23094293
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Sales.History."Sales Shipment Line"
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"NICBOM UnderShptQuantity"'
+  uid: F:TableExtension::NICBOM_SalesShipmentLine.NICBOM_UnderShptQuantity
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"NICBOM UnderShptCode"'
+  uid: F:TableExtension::NICBOM_SalesShipmentLine.NICBOM_UnderShptCode[20]
+commentId: O:TableExtension::NICBOM SalesShipmentLine
+name: '"NICBOM SalesShipmentLine"'
+uid: O:TableExtension::NICBOM_SalesShipmentLine

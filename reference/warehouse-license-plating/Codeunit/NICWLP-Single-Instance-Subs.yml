@@ -1,0 +1,62 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Single Instance Subs"'
+alId: ID 23093639
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: SingleInstance
+  value: "True"
+  promoted: false
+- name: Permissions
+  value: >-
+    tabledata "Item Journal Line" = r,
+            tabledata "Tracking Specification" = r,
+            tabledata "Transfer Header" = r,
+            tabledata "Transfer Receipt Header" = r,
+            tabledata "Transfer Shipment Header" = r,
+            tabledata "Warehouse Journal Line" = r
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure GetDefaultPackageNo(): Code[50]'
+    return:
+      returnType:
+        name: Code[50]
+        isExternal: true
+  name: GetDefaultPackageNo
+  uid: M:Codeunit::NICWLP_Single_Instance_Subs.GetDefaultPackageNo:Code[50]
+- syntax:
+    content: 'procedure SetAssignPackageNo(_AssignPackageNo: Boolean)'
+    parameters:
+    - id: _AssignPackageNo
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: SetAssignPackageNo
+  uid: M:Codeunit::NICWLP_Single_Instance_Subs.SetAssignPackageNo(Boolean)
+- syntax:
+    content: 'procedure SetDefaultPackageNo(SetupDefault: Code[50])'
+    parameters:
+    - id: SetupDefault
+      parameterType:
+        name: Code[50]
+        isExternal: true
+  name: SetDefaultPackageNo
+  uid: M:Codeunit::NICWLP_Single_Instance_Subs.SetDefaultPackageNo(Code[50])
+- syntax:
+    content: 'procedure SetUseDefaultPackageNo(UseDefaultPackage: Boolean)'
+    parameters:
+    - id: UseDefaultPackage
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: SetUseDefaultPackageNo
+  uid: M:Codeunit::NICWLP_Single_Instance_Subs.SetUseDefaultPackageNo(Boolean)
+commentId: O:Codeunit::NICWLP Single Instance Subs
+name: '"NICWLP Single Instance Subs"'
+uid: O:Codeunit::NICWLP_Single_Instance_Subs

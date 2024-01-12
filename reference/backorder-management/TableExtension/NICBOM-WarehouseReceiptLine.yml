@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM WarehouseReceiptLine"'
+alId: ID 23094286
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Warehouse.Document."Warehouse Receipt Line"
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"NICBOM UnderRcptQuantity"'
+  uid: F:TableExtension::NICBOM_WarehouseReceiptLine.NICBOM_UnderRcptQuantity
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"NICBOM UnderRcptCode"'
+  uid: F:TableExtension::NICBOM_WarehouseReceiptLine.NICBOM_UnderRcptCode[20]
+commentId: O:TableExtension::NICBOM WarehouseReceiptLine
+name: '"NICBOM WarehouseReceiptLine"'
+uid: O:TableExtension::NICBOM_WarehouseReceiptLine

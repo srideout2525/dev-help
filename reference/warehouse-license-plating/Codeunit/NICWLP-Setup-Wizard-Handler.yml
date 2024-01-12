@@ -1,0 +1,20 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Setup Wizard Handler"'
+alId: ID 23093635
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Permissions
+  value: >-
+    tabledata "Inventory Setup" = rm,
+            tabledata "Media Repository" = r,
+            tabledata "Media Resources" = r
+  promoted: false
+commentId: O:Codeunit::NICWLP Setup Wizard Handler
+name: '"NICWLP Setup Wizard Handler"'
+uid: O:Codeunit::NICWLP_Setup_Wizard_Handler

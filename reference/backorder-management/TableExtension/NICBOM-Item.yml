@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM Item"'
+alId: ID 23094287
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Inventory.Item.Item
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"NICBOM UnderRcptCode"'
+  uid: F:TableExtension::NICBOM_Item.NICBOM_UnderRcptCode[20]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"NICBOM UnderShptCode"'
+  uid: F:TableExtension::NICBOM_Item.NICBOM_UnderShptCode[20]
+commentId: O:TableExtension::NICBOM Item
+name: '"NICBOM Item"'
+uid: O:TableExtension::NICBOM_Item

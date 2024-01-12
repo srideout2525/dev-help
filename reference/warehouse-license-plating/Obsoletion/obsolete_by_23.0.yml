@@ -1,0 +1,11 @@
+﻿### YamlMime:BusinessCentralObsoletionList
+tag: "23.0"
+groups:
+- groupName: "23.0"
+  symbols:
+  - kind: PermissionSet
+    internalReference: O:PermissionSet::NICWLP_WhLicensePlatingObjects
+    name: PermissionSet 23093634 "NICWLP WhLicensePlatingObjects"
+    reason: Object name is over 20 characters and causes issues with some permnission functions in web client
+  uid: N:Module::Warehouse_License_Plating_obsolete_by_23.0#23.0
+uid: N:Module::Warehouse_License_Plating_obsolete_by_23.0

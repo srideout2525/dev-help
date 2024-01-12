@@ -1,0 +1,43 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM DeleteObsoleteWhsePicks"'
+alId: ID 23094284
+baseKind: Report
+kind: Report
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Delete Obsolete Warehouse Picks
+  promoted: false
+- name: UsageCategory
+  value: Administration
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Delete Obsolete Warehouse Picks
+  promoted: false
+- name: UsageCategory
+  value: Administration
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+methods:
+- syntax:
+    content: procedure SetSkipConfirm()
+  name: SetSkipConfirm
+  uid: M:Report::NICBOM_DeleteObsoleteWhsePicks.SetSkipConfirm
+commentId: O:Report::NICBOM DeleteObsoleteWhsePicks
+name: '"NICBOM DeleteObsoleteWhsePicks"'
+uid: O:Report::NICBOM_DeleteObsoleteWhsePicks

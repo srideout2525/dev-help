@@ -1,0 +1,39 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM BackorderObjects"'
+alId: ID 23094284
+baseKind: PermissionSet
+kind: PermissionSet
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Permission Set](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-object)'
+objectProperties:
+- name: Caption
+  value: Backorder Management - Objects
+  promoted: false
+- name: Access
+  value: Public
+  promoted: false
+- name: Assignable
+  value: "False"
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteTag
+  value: "23.0"
+  promoted: false
+- name: ObsoleteReason
+  value: Object name is over 20 characters and causes issues with some permnission functions in web client
+  promoted: false
+- name: IncludedPermissionSets
+  value: '#ba27a0c58e6a4be49c55ee05b6704ea3#"NICLIB Library"'
+  promoted: false
+commentId: O:PermissionSet::NICBOM BackorderObjects
+name: '"NICBOM BackorderObjects"'
+obsoletion:
+  state: pending
+  reason: Object name is over 20 characters and causes issues with some permnission functions in web client
+  version: "23.0"
+uid: O:PermissionSet::NICBOM_BackorderObjects

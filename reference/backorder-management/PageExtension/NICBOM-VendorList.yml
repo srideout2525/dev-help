@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM VendorList"'
+alId: ID 23094295
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Purchases.Vendor."Vendor List"
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::NICBOM VendorList
+name: '"NICBOM VendorList"'
+uid: O:PageExtension::NICBOM_VendorList

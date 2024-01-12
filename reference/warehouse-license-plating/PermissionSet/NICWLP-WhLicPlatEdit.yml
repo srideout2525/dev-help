@@ -1,0 +1,23 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP WhLicPlatEdit"'
+alId: ID 23093636
+baseKind: PermissionSet
+kind: PermissionSet
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Permission Set](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-object)'
+objectProperties:
+- name: Assignable
+  value: "True"
+  promoted: false
+- name: Caption
+  value: Warehouse License Plating - Edit
+  promoted: false
+- name: IncludedPermissionSets
+  value: '"NICWLP WhLicPlatRead"'
+  promoted: false
+commentId: O:PermissionSet::NICWLP WhLicPlatEdit
+name: '"NICWLP WhLicPlatEdit"'
+uid: O:PermissionSet::NICWLP_WhLicPlatEdit

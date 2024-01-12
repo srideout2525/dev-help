@@ -1,0 +1,71 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP RESTStripeConfig"'
+alId: ID 23093635
+baseKind: Table
+kind: Table
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: REST Stripe Configuration
+  promoted: false
+- name: ObsoleteState
+  value: Removed
+  promoted: false
+- name: ObsoleteReason
+  value: Replaced by AppSource pricing
+  promoted: false
+- name: ObsoleteTag
+  value: "22.2"
+  promoted: false
+fields:
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"Primary Key"'
+  uid: F:Table::NICWLP_RESTStripeConfig.Primary_Key[10]
+- type:
+    name: Boolean
+    isExternal: true
+  name: IsMockConfig
+  uid: F:Table::NICWLP_RESTStripeConfig.IsMockConfig
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::NICWLP_RESTStripeConfig.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::NICWLP_RESTStripeConfig.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::NICWLP_RESTStripeConfig.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::NICWLP_RESTStripeConfig.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::NICWLP_RESTStripeConfig.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::NICWLP_RESTStripeConfig.SystemRowVersion
+commentId: O:Table::NICWLP RESTStripeConfig
+name: '"NICWLP RESTStripeConfig"'
+obsoletion:
+  state: removed
+  reason: Replaced by AppSource pricing
+  version: "22.2"
+uid: O:Table::NICWLP_RESTStripeConfig

@@ -1,0 +1,84 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Whse Entry Bin Detail"'
+alId: ID 23093646
+baseKind: Query
+kind: Query
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Warehouse Entry Bin Detail
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+queryColumns:
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[50]
+    isExternal: true
+  name: LotNo
+  uid: C:Query::NICWLP_Whse_Entry_Bin_Detail.WarehouseEntry.LotNo
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[50]
+    isExternal: true
+  name: SerialNo
+  uid: C:Query::NICWLP_Whse_Entry_Bin_Detail.WarehouseEntry.SerialNo
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[10]
+    isExternal: true
+  name: VariantCode
+  uid: C:Query::NICWLP_Whse_Entry_Bin_Detail.WarehouseEntry.VariantCode
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[10]
+    isExternal: true
+  name: ZoneCode
+  uid: C:Query::NICWLP_Whse_Entry_Bin_Detail.WarehouseEntry.ZoneCode
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: ItemNo
+  uid: C:Query::NICWLP_Whse_Entry_Bin_Detail.WarehouseEntry.ItemNo
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[10]
+    isExternal: true
+  name: LocationCode
+  uid: C:Query::NICWLP_Whse_Entry_Bin_Detail.WarehouseEntry.LocationCode
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: BinCode
+  uid: C:Query::NICWLP_Whse_Entry_Bin_Detail.WarehouseEntry.BinCode
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[50]
+    isExternal: true
+  name: PackageNo
+  uid: C:Query::NICWLP_Whse_Entry_Bin_Detail.WarehouseEntry.PackageNo
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[10]
+    isExternal: true
+  name: UnitofMeasureCode
+  uid: C:Query::NICWLP_Whse_Entry_Bin_Detail.WarehouseEntry.UnitofMeasureCode
+- dataItem: WarehouseEntry
+  columnType:
+    name: Decimal
+    isExternal: true
+  name: Quantity
+  uid: C:Query::NICWLP_Whse_Entry_Bin_Detail.WarehouseEntry.Quantity
+commentId: O:Query::NICWLP Whse Entry Bin Detail
+name: '"NICWLP Whse Entry Bin Detail"'
+uid: O:Query::NICWLP_Whse_Entry_Bin_Detail

@@ -1,0 +1,63 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Warehouse Entry"'
+alId: ID 23093637
+baseKind: Query
+kind: Query
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Warehouse Entry
+  promoted: false
+- name: OrderBy
+  value: descending(EntryNo)
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+queryColumns:
+- dataItem: WarehouseEntry
+  columnType:
+    name: Integer
+    isExternal: true
+  name: EntryNo
+  uid: C:Query::NICWLP_Warehouse_Entry.WarehouseEntry.EntryNo
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: ItemNo
+  uid: C:Query::NICWLP_Warehouse_Entry.WarehouseEntry.ItemNo
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[10]
+    isExternal: true
+  name: LocationCode
+  uid: C:Query::NICWLP_Warehouse_Entry.WarehouseEntry.LocationCode
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: BinCode
+  uid: C:Query::NICWLP_Warehouse_Entry.WarehouseEntry.BinCode
+- dataItem: WarehouseEntry
+  columnType:
+    name: Code[50]
+    isExternal: true
+  name: PackageNo
+  uid: C:Query::NICWLP_Warehouse_Entry.WarehouseEntry.PackageNo
+- dataItem: WarehouseEntry
+  columnType:
+    name: Decimal
+    isExternal: true
+  name: Quantity
+  uid: C:Query::NICWLP_Warehouse_Entry.WarehouseEntry.Quantity
+commentId: O:Query::NICWLP Warehouse Entry
+name: '"NICWLP Warehouse Entry"'
+uid: O:Query::NICWLP_Warehouse_Entry

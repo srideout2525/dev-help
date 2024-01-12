@@ -1,0 +1,44 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP WLP Setup Wizard"'
+alId: ID 23093661
+baseKind: Page
+kind: Page
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: Microsoft.Inventory.Setup."Inventory Setup"
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Warehouse License Plating Setup Wizard
+  promoted: false
+- name: PageType
+  value: NavigatePage
+  promoted: true
+- name: SourceTable
+  value: "313"
+  promoted: true
+  xrefType:
+    name: Microsoft.Inventory.Setup."Inventory Setup"
+    isExternal: true
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure IsSetupFinished(): Boolean'
+    return:
+      returnType:
+        name: Boolean
+        isExternal: true
+  name: IsSetupFinished
+  uid: M:Page::NICWLP_WLP_Setup_Wizard.IsSetupFinished:Boolean
+commentId: O:Page::NICWLP WLP Setup Wizard
+name: '"NICWLP WLP Setup Wizard"'
+uid: O:Page::NICWLP_WLP_Setup_Wizard

@@ -1,0 +1,43 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM ItemCustUnderShptCodes"'
+alId: ID 23094286
+baseKind: Page
+kind: Page
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::NICBOM_ItemCustUnderShptCode
+  name: '"NICBOM ItemCustUnderShptCode"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Item Customer Under-Shipment Codes
+  promoted: false
+- name: DataCaptionFields
+  value: "1"
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "23094287"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::NICBOM_ItemCustUnderShptCode
+    name: '"NICBOM ItemCustUnderShptCode"'
+    isExternal: false
+- name: DelayedInsert
+  value: "True"
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::NICBOM ItemCustUnderShptCodes
+name: '"NICBOM ItemCustUnderShptCodes"'
+uid: O:Page::NICBOM_ItemCustUnderShptCodes

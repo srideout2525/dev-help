@@ -1,0 +1,32 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Inventory Setup"'
+alId: ID 23093635
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Inventory.Setup."Inventory Setup"
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"NICWLP Strict Package Posting"'
+  uid: F:TableExtension::NICWLP_Inventory_Setup.NICWLP_Strict_Package_Posting
+- type:
+    name: Code[50]
+    isExternal: true
+  name: '"NICWLP Default Package No."'
+  uid: F:TableExtension::NICWLP_Inventory_Setup.NICWLP_Default_Package_No#[50]
+- type:
+    name: Integer
+    isExternal: true
+  name: '"NICWLP Package Label"'
+  uid: F:TableExtension::NICWLP_Inventory_Setup.NICWLP_Package_Label
+commentId: O:TableExtension::NICWLP Inventory Setup
+name: '"NICWLP Inventory Setup"'
+uid: O:TableExtension::NICWLP_Inventory_Setup

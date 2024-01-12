@@ -1,0 +1,26 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Objects"'
+alId: ID 23093637
+baseKind: PermissionSet
+kind: PermissionSet
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Permission Set](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Assignable
+  value: "False"
+  promoted: false
+- name: Caption
+  value: Warehouse License Plating - Objects
+  promoted: false
+- name: IncludedPermissionSets
+  value: '#ba27a0c58e6a4be49c55ee05b6704ea3#"NICLIB Library"'
+  promoted: false
+commentId: O:PermissionSet::NICWLP Objects
+name: '"NICWLP Objects"'
+uid: O:PermissionSet::NICWLP_Objects

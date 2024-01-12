@@ -1,0 +1,45 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Bin Factbox"'
+alId: ID 23093636
+baseKind: Page
+kind: Page
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: Microsoft.Warehouse.Ledger."Warehouse Entry"
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#Warehouse'
+  promoted: false
+- name: Caption
+  value: Bin Details
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "7312"
+  promoted: true
+  xrefType:
+    name: Microsoft.Warehouse.Ledger."Warehouse Entry"
+    isExternal: true
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure SetPageContent(var TempPackageContentsBuffer: Record "NICWLP Package Contents Buffer" temporary)'
+    parameters:
+    - id: TempPackageContentsBuffer
+      parameterType:
+        name: Record "NICWLP Package Contents Buffer" temporary
+        isExternal: true
+  name: SetPageContent
+  uid: M:Page::NICWLP_Bin_Factbox.SetPageContent(NICWLP_Package_Contents_Buffer@)
+commentId: O:Page::NICWLP Bin Factbox
+name: '"NICWLP Bin Factbox"'
+uid: O:Page::NICWLP_Bin_Factbox

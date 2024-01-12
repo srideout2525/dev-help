@@ -1,0 +1,74 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM RESTStripeConfig"'
+alId: ID 23094286
+baseKind: Table
+kind: Table
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: REST Stripe Configuration
+  promoted: false
+- name: DataClassification
+  value: ToBeClassified
+  promoted: false
+- name: ObsoleteState
+  value: Removed
+  promoted: false
+- name: ObsoleteReason
+  value: Replaced by AppSource pricing
+  promoted: false
+- name: ObsoleteTag
+  value: "22.2"
+  promoted: false
+fields:
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"Primary Key"'
+  uid: F:Table::NICBOM_RESTStripeConfig.Primary_Key[10]
+- type:
+    name: Boolean
+    isExternal: true
+  name: IsMockConfig
+  uid: F:Table::NICBOM_RESTStripeConfig.IsMockConfig
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::NICBOM_RESTStripeConfig.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::NICBOM_RESTStripeConfig.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::NICBOM_RESTStripeConfig.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::NICBOM_RESTStripeConfig.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::NICBOM_RESTStripeConfig.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::NICBOM_RESTStripeConfig.SystemRowVersion
+commentId: O:Table::NICBOM RESTStripeConfig
+name: '"NICBOM RESTStripeConfig"'
+obsoletion:
+  state: removed
+  reason: Replaced by AppSource pricing
+  version: "22.2"
+uid: O:Table::NICBOM_RESTStripeConfig

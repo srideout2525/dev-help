@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM Qty. To Handle Option"'
+alId: ID 23094286
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- name: Remainder
+  uid: E:Enum::NICBOM_Qty#_To_Handle_Option.Remainder
+- name: Blank
+  uid: E:Enum::NICBOM_Qty#_To_Handle_Option.Blank
+commentId: O:Enum::NICBOM Qty# To Handle Option
+name: '"NICBOM Qty. To Handle Option"'
+uid: O:Enum::NICBOM_Qty#_To_Handle_Option

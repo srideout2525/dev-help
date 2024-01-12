@@ -1,0 +1,75 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM ItemVendorUnderRcptCode"'
+alId: ID 23094289
+baseKind: Table
+kind: Table
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Item Vendor Under-Receipt Code
+  promoted: false
+- name: LookupPageID
+  value: NICBOM ItemVendUnderRcptCodes
+  promoted: false
+  xrefType:
+    internalReference: O:Page::NICBOM_ItemVendUnderRcptCodes
+    name: '"NICBOM ItemVendUnderRcptCodes"'
+    isExternal: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Item No."'
+  uid: F:Table::NICBOM_ItemVendorUnderRcptCode.Item_No#[20]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Vendor No."'
+  uid: F:Table::NICBOM_ItemVendorUnderRcptCode.Vendor_No#[20]
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"Variant Code"'
+  uid: F:Table::NICBOM_ItemVendorUnderRcptCode.Variant_Code[10]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Under-Receipt Code"'
+  uid: F:Table::NICBOM_ItemVendorUnderRcptCode.Under-Receipt_Code[20]
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::NICBOM_ItemVendorUnderRcptCode.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::NICBOM_ItemVendorUnderRcptCode.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::NICBOM_ItemVendorUnderRcptCode.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::NICBOM_ItemVendorUnderRcptCode.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::NICBOM_ItemVendorUnderRcptCode.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::NICBOM_ItemVendorUnderRcptCode.SystemRowVersion
+commentId: O:Table::NICBOM ItemVendorUnderRcptCode
+name: '"NICBOM ItemVendorUnderRcptCode"'
+uid: O:Table::NICBOM_ItemVendorUnderRcptCode

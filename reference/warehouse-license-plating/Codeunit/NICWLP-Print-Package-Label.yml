@@ -1,0 +1,29 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Print Package Label"'
+alId: ID 23093638
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Permissions
+  value: >-
+    tabledata "Inventory Setup" = r,
+            tabledata "Package No. Information" = r
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure PrintPackageLabel(PackageNoInformation: Record "Package No. Information")'
+    parameters:
+    - id: PackageNoInformation
+      parameterType:
+        name: Record "Package No. Information"
+        isExternal: true
+  name: PrintPackageLabel
+  uid: M:Codeunit::NICWLP_Print_Package_Label.PrintPackageLabel(Package_No#_Information)
+commentId: O:Codeunit::NICWLP Print Package Label
+name: '"NICWLP Print Package Label"'
+uid: O:Codeunit::NICWLP_Print_Package_Label

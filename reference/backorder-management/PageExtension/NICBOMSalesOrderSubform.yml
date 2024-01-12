@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: NICBOMSalesOrderSubform
+alId: ID 23094299
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+extends:
+  name: Microsoft.Sales.Document."Sales Order Subform"
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::NICBOMSalesOrderSubform
+name: NICBOMSalesOrderSubform
+uid: O:PageExtension::NICBOMSalesOrderSubform

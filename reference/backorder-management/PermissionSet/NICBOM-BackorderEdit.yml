@@ -1,0 +1,23 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM BackorderEdit"'
+alId: ID 23094285
+baseKind: PermissionSet
+kind: PermissionSet
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Permission Set](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-object)'
+objectProperties:
+- name: Assignable
+  value: "True"
+  promoted: false
+- name: Caption
+  value: Backorder Management - Edit
+  promoted: false
+- name: IncludedPermissionSets
+  value: '"NICBOM BackorderRead"'
+  promoted: false
+commentId: O:PermissionSet::NICBOM BackorderEdit
+name: '"NICBOM BackorderEdit"'
+uid: O:PermissionSet::NICBOM_BackorderEdit

@@ -1,0 +1,23 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICBOM Single Inst Sub (Sales)"'
+alId: ID 23094291
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Backorder_Management::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: SingleInstance
+  value: "True"
+  promoted: false
+- name: Permissions
+  value: >-
+    tabledata "Sales Line" = r,
+            tabledata "Warehouse Setup" = r,
+            tabledata "Warehouse Shipment Line" = r
+  promoted: false
+commentId: O:Codeunit::NICBOM Single Inst Sub (Sales)
+name: '"NICBOM Single Inst Sub (Sales)"'
+uid: O:Codeunit::NICBOM_Single_Inst_Sub_(Sales)

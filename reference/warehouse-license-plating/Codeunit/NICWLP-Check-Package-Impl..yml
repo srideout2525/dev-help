@@ -1,0 +1,42 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"NICWLP Check Package Impl."'
+alId: ID 23093677
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Warehouse_License_Plating::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Permissions
+  value: >-
+    tabledata Bin = r,
+            tabledata "Inventory Setup" = r,
+            tabledata Item = r,
+            tabledata "Item Register" = r,
+            tabledata "Item Variant" = r,
+            tabledata "Warehouse Register" = r
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure BuildPackageContents2(var TempPackageContentsBuffer: Record "NICWLP Package Contents Buffer" temporary, InludeDefaultPackages: Boolean, InludeBlankPackages: Boolean)'
+    parameters:
+    - id: TempPackageContentsBuffer
+      parameterType:
+        name: Record "NICWLP Package Contents Buffer" temporary
+        isExternal: true
+    - id: InludeDefaultPackages
+      parameterType:
+        name: Boolean
+        isExternal: true
+    - id: InludeBlankPackages
+      parameterType:
+        name: Boolean
+        isExternal: true
+  summary: Returns the table number of the internal record line.
+  name: BuildPackageContents2
+  uid: M:Codeunit::NICWLP_Check_Package_Impl#.BuildPackageContents2(NICWLP_Package_Contents_Buffer@,Boolean,Boolean)
+commentId: O:Codeunit::NICWLP Check Package Impl#
+name: '"NICWLP Check Package Impl."'
+uid: O:Codeunit::NICWLP_Check_Package_Impl#
